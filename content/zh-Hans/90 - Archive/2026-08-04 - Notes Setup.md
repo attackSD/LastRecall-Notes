@@ -1,0 +1,20 @@
+<!-- This file is generated from the Traditional Chinese note. Edit the Traditional Chinese source, then run update_note.bat. -->
+
+---
+
+title: 2026-08-04 专案更新页面建立
+tags:
+
+- lastrecall
+- archive
+  date: 2026-08-04
+
+---
+
+# 2026-08-04 专案更新页面建立
+
+LastRecall 建立了集中式的对外更新页面，用来说明专案方向、目前进度与後续计画。
+
+笔记采用少量大分类，并以简单易懂的玩家语言呈现。技术细节会保留在开发流程中，不放在这份对外纪录里。
+
+回到 [[zh-Hans/00 - Project/Overview|专案总览]]。

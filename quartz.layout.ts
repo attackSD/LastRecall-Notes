@@ -14,6 +14,33 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+const languageExplorer = () =>
+  Component.Explorer({
+    filterFn: (node) => {
+      if (node.slugSegment === "tags") return false
+
+      const slug = document.body.dataset.slug ?? ""
+      const activeLanguage =
+        slug === "en" || slug.startsWith("en/")
+          ? "en"
+          : slug === "zh-Hans" || slug.startsWith("zh-Hans/")
+            ? "zh-Hans"
+            : "zh-Hant"
+      const nodeLanguage =
+        node.slug === "en" || node.slug.startsWith("en/")
+          ? "en"
+          : node.slug === "zh-Hans" || node.slug.startsWith("zh-Hans/")
+            ? "zh-Hans"
+            : "zh-Hant"
+
+      return nodeLanguage === activeLanguage
+    },
+    mapFn: (node) => {
+      if (node.slugSegment === "en") node.displayName = "English notes"
+      if (node.slugSegment === "zh-Hans") node.displayName = "\u7b80\u4f53\u4e2d\u6587\u7b14\u8bb0"
+    },
+  })
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -39,16 +66,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      filterFn: (node) => {
-        if (node.slugSegment === "tags") return false
-        const isEnglish = document.body.dataset.slug?.startsWith("en/")
-        return isEnglish ? node.slug.startsWith("en/") : !node.slug.startsWith("en/")
-      },
-      mapFn: (node) => {
-        if (node.slugSegment === "en") node.displayName = "English notes"
-      },
-    }),
+    languageExplorer(),
   ],
   right: [
     Component.Graph(),
@@ -57,7 +75,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -80,16 +98,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      filterFn: (node) => {
-        if (node.slugSegment === "tags") return false
-        const isEnglish = document.body.dataset.slug?.startsWith("en/")
-        return isEnglish ? node.slug.startsWith("en/") : !node.slug.startsWith("en/")
-      },
-      mapFn: (node) => {
-        if (node.slugSegment === "en") node.displayName = "English notes"
-      },
-    }),
+    languageExplorer(),
   ],
   right: [],
 }

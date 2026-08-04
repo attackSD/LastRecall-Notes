@@ -1,0 +1,35 @@
+<!-- This file is generated from the Traditional Chinese note. Edit the Traditional Chinese source, then run update_note.bat. -->
+
+---
+
+title: LastRecall 内容方向
+tags:
+
+- lastrecall
+- content
+
+---
+
+# LastRecall 内容方向
+
+## 世界
+
+Desert Wasteland 会是一个荒凉、危险但值得深入探索的地点。加油站将成为与荒地相连的室内区域，但其地图与探索内容尚未开始建置。
+
+## 枪械
+
+现有枪械、弹匣与弹药在单人功能上没有明显问题，但大量使用外部素材与音效，品质不够一致。
+
+未来的枪械大改版会使用自制素材与音效，并加入枪支改装系统。改装除了影响功能，枪支外观也会随之改变。
+
+## 物品与补给
+
+现有物品内容量偏少；补给与医疗物品在最近机制更新後尚未重新测试。未来会扩充内容并改用自制素材。
+
+## 战利品与交易
+
+可搜寻箱子已具备，内容会逐步揭露；目前缺少搜寻音效，箱内物资也尚未平衡。回收商可正常收购与出售商品，接下来会调整商品内容与价格。
+
+尚未排程的想法集中在 [[zh-Hans/20 - Content/Future Ideas|功能建议]]，不与目前的开发承诺混在一起。
+
+相关：[[zh-Hans/00 - Project/Progress|目前进度]] · [[zh-Hans/10 - Gameplay/Game Experience|游戏体验]]
