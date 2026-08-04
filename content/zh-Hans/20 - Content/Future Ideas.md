@@ -1,14 +1,9 @@
-<!-- This file is generated from the Traditional Chinese note. Edit the Traditional Chinese source, then run update_note.bat. -->
-
 ---
-
 title: LastRecall 功能建议
 tags:
-
-- lastrecall
-- ideas
-  status: unplanned
-
+  - lastrecall
+  - ideas
+status: unplanned
 ---
 
 # LastRecall 功能建议
@@ -20,13 +15,9 @@ tags:
 - **基地物资资讯：** 玩家在外面时，也能查看基地内的重要道具数量。
 - **医疗站：** 提供有限次数的治疗；同时取消自然回血，让补给与治疗选择更有压力。
 
-## 队伍与突袭
-
-- **不同队伍共同进入 Raid：** 让不同队伍的玩家也能进入同一场 Raid，并搭配各自的出生位置与後续队伍互动设计。
-
 ## 交易与经济
 
-- **泰拉币常驻显示：** 在商人交易画面旁持续显示玩家拥有的泰拉币数量，方便做出购买与收购决定。
+- **泰拉币常驻显示：** 在商人交易画面旁以「泰拉币：数量」文字持续显示玩家拥有的货币，不使用容易混淆的图示。
 
 ## 枪械与装备
 

@@ -17,13 +17,15 @@ This page records only issues confirmed as fixed in actual play. Items still awa
 - **Gas-station Shop entry countdown and earlier return location**: The entry countdown did not display and players returned to the wrong location. A follow-up test confirmed that entry and exit countdowns work and the earlier return-location issue is fixed.
 - **Clients stuck restoring player data after leaving the Gas-station Shop**: Clients could previously fail to complete the exit from the shop. A follow-up multiplayer test confirmed the issue is fixed.
 - **Incorrect Gas-station return, lost input, and item loss**: Players could return directly to the main world, lose controls, and then lose carried items after entering again. A follow-up multiplayer test confirmed these issues are fixed. The separate extra transition through the main world remains on the known-issues page.
+- **Entry and exit refreshing Gas-station Shop loot**: Repeated entry and exit previously refreshed interior loot. A follow-up multiplayer test confirmed the issue is fixed.
 - **Multiplayer respawning after death**: The respawn countdown previously stuck on its final second. A follow-up multiplayer test confirmed that players can now respawn normally.
 - **Normal monsters spawning in raid worlds**: Normal monsters previously appeared in raid worlds. A follow-up test confirmed the issue is fixed.
 - **PvP status notification spam**: Hosting or entering a raid could flood the screen with PvP-enabled or disabled notices. A follow-up multiplayer test confirmed the issue is fixed.
+- **Different-team entry and same-team recognition**: Players from different teams could not enter raids normally; same-team players could damage each other and could not see names. A follow-up multiplayer test confirmed that different teams can enter, and same-team players are now recognised correctly.
 - **Sterile Bandage healing and interrupted medical-item use**: Sterile Bandages did not restore health and medical items could be interrupted immediately. A follow-up test confirmed both issues are fixed.
 - **Enemy patrol and getting-stuck behaviour**: Enemies tended to remain on high ground or get stuck on vehicles instead of patrolling normally. A follow-up test confirmed the issue is fixed. The lack of a turn reaction after an attack from behind remains tracked.
 - **Enemy projectile hits and loot-box generation after enemy deaths**: Enemy ranged attacks could not hit, and no loot box appeared after an enemy died. A follow-up test confirmed both issues are fixed.
-- **Duplicate reward Loot Boxes**: Entering a map could create duplicate reward Loot Boxes. A follow-up test confirmed that boxes no longer duplicate. The texture-fragment issue remains tracked.
+- **Duplicate Reward Loot Boxes and fragmented textures**: Entering a map could create duplicate Reward Loot Boxes and show fragmented textures. A follow-up test confirmed that boxes no longer duplicate and their textures display correctly.
 
 **Status:** ✅ All items above are confirmed fixed; later issues remain on the known-issues page.
 

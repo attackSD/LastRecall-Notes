@@ -19,15 +19,15 @@ tags:
 | ✅ | Client reloading | Reloading and ammo consumption worked correctly in the latest multiplayer test. |
 | ✅ | Entering the map | The latest multiplayer test entered the map successfully; the earlier missing-map issue did not recur. |
 | 🛠 | Map-entry loading screen | A loading screen has been added when entering a map; it still needs continued multiplayer testing. |
-| 🔴 | Raid PvP and team recognition | PvP turns on automatically when a player enters a raid world, and notification spam has been fixed. However, same-team players can still damage each other and cannot see teammate names. |
-| 🛠 | Gas-station Shop | The earlier incorrect main-world return, lost input, and item-loss issues have been fixed. Returning still takes an unnecessary trip through the main world before Desert Wasteland, and repeated entry and exit can refresh interior loot. |
+| ✅ | Raid PvP and team recognition | PvP turns on automatically when a player enters a raid world, and notification spam has been fixed. Different teams can enter raids; same-team players no longer damage each other and can see teammate names. |
+| 🛠 | Gas-station Shop | The earlier incorrect main-world return, lost input, item loss, and entry-exit loot refreshing issues have been fixed. Returning still takes an unnecessary trip through the main world before Desert Wasteland, and interior loot currently does not refresh. |
 | 🛠 | Extraction and death handling | Multiplayer extraction points and countdowns, plus respawning after death, have been fixed. Dropped items may still return to the player after death. |
-| 🔴 | Reward Loot Boxes | Duplicate spawns have been fixed, but textures can still fragment when entering a raid world. |
-| 🛠 | Information display | Ammo and magazine counts display correctly. Keeping Terra Coin totals visible beside merchant transactions is a future improvement. |
+| 🛠 | Reward Loot Boxes | Duplicate spawns and fragmented textures on raid entry have been fixed; sound and loot balance are still missing. |
+| 🛠 | Information display | Ammo and magazine counts display correctly. Keeping a text-only “Terra Coin: amount” display beside merchant transactions is a future improvement. |
 | 🛠 | Teleporter and departure | Team preparation and departure now work normally; the map-selection interface and block textures still need work. |
 | 🛠 | Expedition loadout management | Items not taken out are temporarily kept in hideout storage; the final persistence method is still being planned. |
 | 🛠 | Enemies | The patrol and getting-stuck-on-high-ground-or-vehicles issue has been fixed, but enemies still do not turn after being attacked from behind. |
-| 🛠 | Enemy ranged attacks and loot | Projectile hits and loot boxes after enemy deaths have been fixed; projectile speed and behaviour still need adjustment. |
+| 🛠 | Enemy ranged attacks and loot | Projectile hits and loot boxes after enemy deaths have been fixed; enemies still need to use the same projectile behaviour as players. |
 | 🛠 | Loot Boxes | Existing items and supplies can be searched normally and reveal contents gradually; sound and loot balance are still missing. |
 | 🔴 | Recovery Broker trading | The merchant cannot buy modded items brought back from raids; item selection and prices still need balancing. |
 | 🛠 | Existing firearms | Function correctly in single-player, but their assets and audio are inconsistent in quality. |
@@ -35,11 +35,11 @@ tags:
 
 ## Current priorities
 
-1. Fix same-team friendly fire and missing teammate names in raids.
-2. Fix fragmented Reward Loot Box textures on raid entry, the extra main-world transition from the Gas-station Shop, and interior-loot refreshing.
-3. Fix merchant purchase of modded raid items and plan an always-visible Terra Coin display during transactions.
-4. Improve enemy reactions to attacks from behind, plus projectile speed and behaviour.
-5. Prevent dropped items from returning to players after death and teams from resetting after entering with another team.
+1. Fix merchant purchase of modded raid items and plan a text-only, always-visible Terra Coin total during transactions.
+2. Fix the extra main-world transition from the Gas-station Shop and plan how interior loot should refresh.
+3. Improve enemy reactions to attacks from behind and make enemy projectiles behave like player projectiles.
+4. Prevent dropped items from returning to players after death.
+5. Build the basic Desert Wasteland map, then balance enemies, container loot, and trading prices.
 
 ## Next directions
 

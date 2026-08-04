@@ -1,13 +1,8 @@
-<!-- This file is generated from the Traditional Chinese note. Edit the Traditional Chinese source, then run update_note.bat. -->
-
 ---
-
 title: LastRecall 游戏体验
 tags:
-
-- lastrecall
-- gameplay
-
+  - lastrecall
+  - gameplay
 ---
 
 # LastRecall 游戏体验

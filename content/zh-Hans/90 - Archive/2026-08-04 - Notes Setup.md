@@ -1,14 +1,9 @@
-<!-- This file is generated from the Traditional Chinese note. Edit the Traditional Chinese source, then run update_note.bat. -->
-
 ---
-
 title: 2026-08-04 专案更新页面建立
 tags:
-
-- lastrecall
-- archive
-  date: 2026-08-04
-
+  - lastrecall
+  - archive
+date: 2026-08-04
 ---
 
 # 2026-08-04 专案更新页面建立

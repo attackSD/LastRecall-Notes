@@ -11,15 +11,12 @@ tags:
 
 | Issue | Status | Details |
 | --- | --- | --- |
-| Same-team players can damage each other and cannot see names | 🔴 Needs fixing | In a raid, players displayed as the same team can still damage teammates and cannot see teammate names. |
-| Reward Loot Box textures fragment on raid entry | 🔴 Needs fixing | Reward Loot Box textures can still display as fragmented when entering a raid world. |
 | Extra transition when returning from the Gas-station Shop | 🛠 Needs fixing | Returning from the shop goes through the main world before going to Desert Wasteland. |
-| Entering and exiting the Gas-station Shop refreshes loot | 🔴 Needs fixing | Repeated entry and exit can refresh its interior loot. |
+| Interior Gas-station Shop loot does not refresh | 🛠 Needs planning | Entry and exit no longer refreshes loot, but there is not yet an intended way for interior loot to refresh. |
 | Dropped items return after a player dies | 🔴 Needs fixing | Items that should stay in the raid can return to the player on returning to the main world. |
 | Enemies do not turn after being attacked from behind | 🛠 Needs fixing | An enemy can keep facing the same direction after being attacked, making its reaction unnatural. |
-| Enemy projectile speed and behaviour | 🛠 Needs tuning | Projectiles are too slow and behave differently from player projectiles. |
+| Enemy projectile behaviour needs adjustment | 🛠 Needs tuning | Enemy projectiles are intended to behave like player projectiles. |
 | Merchant cannot buy modded items brought back from raids | 🔴 Needs fixing | The merchant currently cannot purchase modded items brought back from a raid. |
-| Team resets after entering with another team | 🛠 Needs fixing | The player's team can be reset after entering with another team. |
 
 ## Still needs adjustment
 
@@ -37,13 +34,13 @@ tags:
 
 - Clients can reload and ammo is deducted correctly.
 - Players entered the map successfully; the earlier missing-map issue did not recur in the latest test.
-- PvP enabled and disabled notifications no longer flood the screen.
+- PvP enabled and disabled notifications no longer flood the screen. Different teams can enter raids, and same-team players no longer damage each other or lose teammate names.
 - Multiplayer extraction points and countdowns now work normally.
-- The Gas-station Shop portal and entry and exit countdowns now work normally. The earlier incorrect return, lost input, item loss, and client player-data restoration stall have been fixed.
+- The Gas-station Shop portal and entry and exit countdowns now work normally. The earlier incorrect return, lost input, item loss, client player-data restoration stall, and entry-exit loot refresh have been fixed.
 - Players can now respawn normally after death in multiplayer, and normal monsters no longer generate in raid worlds.
 - Sterile Bandages restore health normally, and medical-item use is no longer randomly interrupted.
 - Enemies no longer tend to get stuck on high ground or vehicles; their projectiles can hit players, and loot boxes now generate after enemies die.
-- Reward Loot Boxes no longer duplicate.
+- Reward Loot Boxes no longer duplicate, and their raid-entry textures display normally.
 - Team preparation, departure, Loot Box searches, existing items, and supplies now work normally.
 
 See [[en/30 - Release/Resolved Issues|Resolved Issues]] for confirmed fixes.
