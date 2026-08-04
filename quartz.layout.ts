@@ -21,6 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.LanguageSwitcher(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -38,7 +39,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        if (node.slugSegment === "tags") return false
+        const isEnglish = document.body.dataset.slug?.startsWith("en/")
+        return isEnglish ? node.slug.startsWith("en/") : !node.slug.startsWith("en/")
+      },
+      mapFn: (node) => {
+        if (node.slugSegment === "en") node.displayName = "English notes"
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +72,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        if (node.slugSegment === "tags") return false
+        const isEnglish = document.body.dataset.slug?.startsWith("en/")
+        return isEnglish ? node.slug.startsWith("en/") : !node.slug.startsWith("en/")
+      },
+      mapFn: (node) => {
+        if (node.slugSegment === "en") node.displayName = "English notes"
+      },
+    }),
   ],
   right: [],
 }
