@@ -7,34 +7,34 @@ tags:
 
 # LastRecall Resolved Issues
 
-This page records only fixes that have been confirmed in actual play. An issue stays in [[en/30 - Release/Known Issues|Known Issues and Testing]] until it is verified.
+This page records only issues confirmed as fixed in actual play. Items still awaiting verification remain in [[en/30 - Release/Known Issues|Known Issues and Testing]]. Fixes from the same day are combined into one entry.
 
-## 2026-08-05 — Client reloading and ammo consumption
+## 2026-08-05 — Fixes confirmed in multiplayer testing
 
-- **Issue:** Clients could not reload, or ammo was not deducted after reloading.
-- **Verification:** In multiplayer testing, clients could reload and ammo was deducted correctly.
-- **Status:** ✅ Confirmed fixed
+- **Client reloading and ammo consumption**: Clients previously could not reload, or ammo was not deducted after reloading. A follow-up multiplayer test confirmed that both now work correctly.
+- **Multiplayer extraction-point and Gas-station Shop portal generation**: Neither appeared in earlier multiplayer testing. A follow-up test confirmed both now generate normally.
+- **Extraction countdown**: No countdown was shown during extraction. A follow-up multiplayer test confirmed that the countdown now displays normally.
+- **Gas-station Shop entry countdown and earlier return location**: The entry countdown did not display and players returned to the wrong location. A follow-up test confirmed that entry and exit countdowns work and the earlier return-location issue is fixed.
+- **Clients stuck restoring player data after leaving the Gas-station Shop**: Clients could previously fail to complete the exit from the shop. A follow-up multiplayer test confirmed the issue is fixed.
+- **Incorrect Gas-station return, lost input, and item loss**: Players could return directly to the main world, lose controls, and then lose carried items after entering again. A follow-up multiplayer test confirmed these issues are fixed. The separate extra transition through the main world remains on the known-issues page.
+- **Multiplayer respawning after death**: The respawn countdown previously stuck on its final second. A follow-up multiplayer test confirmed that players can now respawn normally.
+- **Normal monsters spawning in raid worlds**: Normal monsters previously appeared in raid worlds. A follow-up test confirmed the issue is fixed.
+- **PvP status notification spam**: Hosting or entering a raid could flood the screen with PvP-enabled or disabled notices. A follow-up multiplayer test confirmed the issue is fixed.
+- **Sterile Bandage healing and interrupted medical-item use**: Sterile Bandages did not restore health and medical items could be interrupted immediately. A follow-up test confirmed both issues are fixed.
+- **Enemy patrol and getting-stuck behaviour**: Enemies tended to remain on high ground or get stuck on vehicles instead of patrolling normally. A follow-up test confirmed the issue is fixed. The lack of a turn reaction after an attack from behind remains tracked.
+- **Enemy projectile hits and loot-box generation after enemy deaths**: Enemy ranged attacks could not hit, and no loot box appeared after an enemy died. A follow-up test confirmed both issues are fixed.
+- **Duplicate reward Loot Boxes**: Entering a map could create duplicate reward Loot Boxes. A follow-up test confirmed that boxes no longer duplicate. The texture-fragment issue remains tracked.
 
-## 2026-08-05 — Multiplayer extraction-point and Gas-station Shop portal generation
-
-- **Issue:** Extraction points and the Gas-station Shop portal did not appear during multiplayer testing.
-- **Verification:** Both now generated in a follow-up multiplayer test.
-- **Status:** ✅ Confirmed fixed
-
-## 2026-08-05 — Duplicate reward Loot Boxes and broken textures
-
-- **Issue:** Entering a map created one reward Loot Box per player, and reward Loot Box textures could appear broken.
-- **Verification:** A follow-up multiplayer test confirmed both issues were resolved.
-- **Status:** ✅ Confirmed fixed
+**Status:** ✅ All items above are confirmed fixed; later issues remain on the known-issues page.
 
 ## Entry format
 
 ```markdown
-## YYYY-MM-DD — Issue title
+## YYYY-MM-DD — Confirmed fixes
 
-- **Issue:**
-- **Verification:**
-- **Status:** ✅ Confirmed fixed
+- **Issue name**: Issue and verification result.
+
+**Status:** ✅ Confirmed fixed.
 ```
 
 Related: [[en/30 - Release/Known Issues|Known Issues and Testing]] · [[en/00 - Project/Updates|Update Log]]

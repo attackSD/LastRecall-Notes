@@ -15,6 +15,14 @@ The following directions are worth discussing further, but **none is scheduled o
 - **Hideout supply information:** Let players check the quantities of important items stored in the hideout while they are away.
 - **Medical station:** Provide a limited number of treatments while removing natural health regeneration, making supplies and treatment choices more meaningful.
 
+## Teams and raids
+
+- **Different teams entering the same raid:** Let players from different teams enter the same raid, supported by separate spawn locations and future team-interaction design.
+
+## Trading and economy
+
+- **Always-visible Terra Coin total:** Keep the player's Terra Coin total visible beside merchant transactions, making purchase and sale decisions easier.
+
 ## Firearms and equipment
 
 - **Firearm crafting:** Add crafting recipes and materials for firearms.
@@ -25,6 +33,7 @@ The following directions are worth discussing further, but **none is scheduled o
 
 ## World and exploration
 
+- **Separate spawn points for different teams:** Let different teams enter a map at their own spawn locations, leaving room for future team interactions and map design.
 - **Desert Wasteland underground area:** Expand the existing map with underground exploration space.
 - **No-surface maps:** Create map types focused on underground or dungeon-like spaces without a traditional surface layer.
 
