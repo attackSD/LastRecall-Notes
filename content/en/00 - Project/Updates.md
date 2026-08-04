@@ -9,29 +9,39 @@ tags:
 
 This page keeps dated project summaries and confirmed completed work only. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
-## 2026-08-05 — Newly found reward Loot Box issues
+## 2026-08-05 — Follow-up multiplayer test
 
-- Entering a map spawns one reward Loot Box for each player.
-- Reward Loot Box textures can appear broken.
+**Passed:**
 
-See [[en/30 - Release/Known Issues|Known Issues and Testing]] for details.
+- Multiplayer extraction points now generate.
+- The Gas-station Shop portal now generates.
+- Duplicate reward Loot Box spawns and broken reward Loot Box textures have been fixed.
 
-## 2026-08-05 — Multiplayer test results
+**Issues found:**
+
+- Neither Gas-station Shop entry nor extraction currently shows a countdown.
+- Players who return from the Gas-station Shop return to the main spawn instead of beside the shop.
+- Clients may lose all input after returning from the Gas-station Shop.
+- A client leaving the Gas-station Shop can become stuck while player data is being restored.
+- Normal monsters still appear in raid worlds.
+- Medical supplies may have no effect, or can be interrupted immediately when used.
+- After a player dies and returns to the main world, their dropped items can return to them.
+- Entering with another team can reset the player's team.
+
+See [[en/30 - Release/Known Issues|Known Issues and Testing]] for the current list.
+
+## 2026-08-05 — Multiplayer test
 
 **Passed:**
 
 - Clients can reload and ammo is deducted correctly.
 - Players can enter the map successfully; the earlier missing-map issue did not recur in this test.
 
-**Issues found:**
+**Issue found:**
 
-- Extraction points did not spawn.
-- The Gas-station Shop entry portal did not spawn.
 - Players could not respawn after death; the countdown stuck on its final second.
 
-See [[en/30 - Release/Known Issues|Known Issues and Testing]] for details.
-
-Confirmed fixes from this test are kept in [[en/30 - Release/Resolved Issues|Resolved Issues]].
+Confirmed fixes are kept in [[en/30 - Release/Resolved Issues|Resolved Issues]].
 
 ## 2026-08-04 — New feature ideas organized
 
