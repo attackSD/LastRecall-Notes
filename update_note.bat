@@ -6,13 +6,6 @@ set "SITE_URL=https://attacksd.github.io/LastRecall/"
 set "GH_EXE=gh"
 if exist "%ProgramFiles%\GitHub CLI\gh.exe" set "GH_EXE=%ProgramFiles%\GitHub CLI\gh.exe"
 
-echo Syncing Simplified Chinese notes...
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\sync-simplified-chinese.ps1"
-if errorlevel 1 goto :error
-
-call npx prettier --write "content\zh-Hans"
-if errorlevel 1 goto :error
-
 echo Building LastRecall Project Notes...
 call npx quartz build
 if errorlevel 1 goto :error
