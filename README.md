@@ -4,7 +4,7 @@ An independent Quartz knowledge base for the LastRecall mod project. Write notes
 
 ## First publish
 
-Create an empty public GitHub repository named `LastRecall` under `attackSD`. In its **Settings → Pages**, set the source to **GitHub Actions**. Then run `update_notes.bat` from this folder.
+Create an empty public GitHub repository named `LastRecall` under `attackSD`. In its **Settings → Pages**, set the source to **GitHub Actions**. Then run `update_note.bat` from this folder.
 
 Publishing the `v4` branch to `https://github.com/attackSD/LastRecall` will deploy the website to `https://attackSD.github.io/LastRecall` through GitHub Pages.
 
