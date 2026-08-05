@@ -26,8 +26,18 @@ This page records only issues confirmed as fixed in actual play. Items still awa
 - **Enemy patrol and getting-stuck behaviour**: Enemies tended to remain on high ground or get stuck on vehicles instead of patrolling normally. A follow-up test confirmed the issue is fixed. The lack of a turn reaction after an attack from behind remains tracked.
 - **Enemy projectile hits and loot-box generation after enemy deaths**: Enemy ranged attacks could not hit, and no loot box appeared after an enemy died. A follow-up test confirmed both issues are fixed.
 - **Duplicate Reward Loot Boxes and fragmented textures**: Entering a map could create duplicate Reward Loot Boxes and show fragmented textures. A follow-up test confirmed that boxes no longer duplicate and their textures display correctly.
+- **Extra Gas-station Shop return transition and no interior-loot refresh**: Returning passed through the main world and interior loot did not refresh. A follow-up multiplayer test confirmed both issues are fixed.
+- **Dropped items returning after death**: Items that should have remained in the raid could return to the player. A follow-up multiplayer test confirmed the issue is fixed.
+- **Enemies not turning after being attacked from behind**: Enemies could keep facing the same direction after an attack. A follow-up multiplayer test confirmed they now turn normally.
+- **Recovery Broker unable to buy modded raid items**: The merchant could not buy the relevant items. A follow-up multiplayer test confirmed it can now do so normally.
 
 **Status:** ✅ All items above are confirmed fixed; later issues remain on the known-issues page.
+
+## 2026-08-06 — Enemy projectile behaviour
+
+- **Issue:** Enemy projectile speed and behaviour differed from player projectiles.
+- **Verification:** Multiplayer testing confirmed that enemy projectiles now behave like player projectiles.
+- **Status:** ✅ Confirmed fixed.
 
 ## Entry format
 

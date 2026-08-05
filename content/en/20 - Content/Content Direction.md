@@ -15,7 +15,13 @@ Desert Wasteland will be a desolate, dangerous location that rewards deeper expl
 
 The existing firearms, magazines, and ammunition have no obvious single-player functionality problems, but they rely heavily on external assets and audio, resulting in inconsistent quality.
 
-A future firearm overhaul will use original assets and sound, and add a weapon-modification system. Modifications will change a weapon's appearance as well as its function.
+A future firearm overhaul will use original assets and sound. The plans below are confirmed for implementation, though their release timing is not yet set.
+
+### Confirmed future firearm plans
+
+- **Weapon modifications and attachments:** Modifications will change a weapon's appearance as well as its function.
+- **Firearm recoil overhaul:** Add more detailed recoil behaviour that can be tuned for each weapon.
+- **Firearm audio overhaul:** Terrain and enclosed spaces will change firearm sounds; empty-magazine shots and suppressed firearms will also have distinct audio.
 
 ## Items and supplies
 

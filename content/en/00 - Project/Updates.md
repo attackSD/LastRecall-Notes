@@ -9,25 +9,31 @@ tags:
 
 This page organizes project progress by date. Updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-06 — Enemy projectile behaviour fixed
+
+- Enemy projectiles now behave like player projectiles.
+- Confirmed in multiplayer testing.
+
 ## 2026-08-05 — Multiplayer testing and map-entry flow update
 
 **Completed or confirmed:**
 
 - A loading screen now appears when entering a map, making the transition clearer. PvP now turns on automatically when a player enters a raid world, and PvP-status notification spam when hosting or entering has been fixed.
+- Switching between Traditional and Simplified Chinese is now available in-game.
 - Players from different teams can now enter raids. Same-team players no longer damage each other and can see teammate names.
 - Clients can reload and ammo is deducted correctly. Team preparation, departure, Loot Box searches, existing items, and supplies now work normally.
 - Players can enter the map successfully; the earlier missing-map issue did not recur in the latest test.
 - Multiplayer extraction points and countdowns, the Gas-station Shop portal, and its entry and exit countdowns now work normally.
 - The earlier incorrect main-world return, lost input, later item loss, and client player-data restoration stall after leaving the Gas-station Shop have been fixed. Repeated entry and exit no longer refreshes interior loot.
+- The extra main-world transition on returning from the Gas-station Shop and its lack of interior-loot refresh have been fixed.
 - Sterile Bandage healing, interrupted medical-item use, and enemy patrols getting stuck on high ground or vehicles have been fixed.
-- Multiplayer respawning after death, normal-monster generation in raid worlds, enemy projectile hits, loot-box generation after enemy deaths, duplicate reward Loot Box spawns, and fragmented Reward Loot Box textures have all been confirmed fixed.
+- Multiplayer respawning after death, dropped items returning after death, normal-monster generation in raid worlds, enemy projectile hits, loot-box generation after enemy deaths, duplicate reward Loot Box spawns, and fragmented Reward Loot Box textures have all been confirmed fixed.
+- Enemies not turning after attacks from behind and the Recovery Broker being unable to buy modded raid items have been fixed.
 
 **Issues found and still to address:**
 
-- The merchant still cannot buy modded items brought back from raids. A text-only, always-visible “Terra Coin: amount” display during transactions is a requested improvement.
-- Returning from the Gas-station Shop still goes through the main world before Desert Wasteland, and interior loot currently does not refresh.
-- Enemies still do not turn after being attacked from behind, and their projectiles need to behave like player projectiles.
-- Dropped items may return to the player after death.
+- A text-only, always-visible “Terra Coin: amount” display during merchant transactions is a requested improvement.
+- Enemy projectiles need to behave like player projectiles.
 
 **Still being checked:**
 

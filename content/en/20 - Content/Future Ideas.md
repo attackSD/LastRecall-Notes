@@ -23,7 +23,6 @@ The following directions are worth discussing further, but **none is scheduled o
 
 - **Firearm crafting:** Add crafting recipes and materials for firearms.
 - **Recipe power cues:** Use colour to clearly distinguish firearm recipes of different strength levels.
-- **Weapon modifications and attachments:** Let players modify firearms, use attachments, and change their appearance.
 - **Armor and appearance:** Add an armor system with readable visual changes.
 - **Weapon rarity and upgrades:** Use rarity to communicate weapon differences and provide future upgrade paths.
 
