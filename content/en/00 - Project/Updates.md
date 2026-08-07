@@ -22,7 +22,12 @@ This page organizes project progress by date. Updates from the same day are comb
 **Issues found or still to address:**
 
 - Preparing a Desert Wasteland raid map in multiplayer can occasionally fail to load, preventing that raid from starting normally. This is under investigation.
+- After evacuating from a raid back to the main world, a severe issue was found that can rarely leave the player completely unable to act. One reproduction occurred while a raid chest was still open; whether the two are related has not been confirmed.
 - M1911 held pose and gunshot listening feel may receive later polish, but are not current blockers.
+
+**Investigation and fix progress:**
+
+- A further stability issue was located when a raid map is started again: an earlier leftover state can affect the next startup. An adjustment has been added and awaits actual multiplayer play verification.
 
 ## 2026-08-07 — Crosshair system and firearm production continue
 

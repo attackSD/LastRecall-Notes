@@ -11,7 +11,8 @@ tags:
 
 | Item | Status | Details |
 | --- | --- | --- |
-| Desert Wasteland multiplayer raid loading | 🔴 Known issue | Preparing a raid map in multiplayer can occasionally fail to load, preventing that raid from starting normally. This is under investigation. |
+| Loss of control after returning from a raid | 🔴 Severe blocker | In rare cases, evacuating from a raid back to the main world leaves the character apparently loaded but completely unable to act. This is under investigation. One reproduction occurred while a raid chest was still open; whether the two are related is still being checked. |
+| Raid map startup stability | 🔴 Awaiting verification | Preparing a raid map in multiplayer can occasionally fail to load. The issue has been located and an adjustment added; it now awaits actual multiplayer play verification. |
 
 ## Still needs adjustment
 
@@ -23,6 +24,7 @@ tags:
 
 ## Items to test
 
+- Player control after evacuating from a raid back to the main world, including whether leaving with a chest open is involved.
 - Reliability of preparing and starting Desert Wasteland raid maps in multiplayer.
 
 ## Recent multiplayer test: passed
@@ -31,7 +33,7 @@ tags:
 - Players entered the map successfully; the earlier missing-map issue did not recur in the latest test.
 - PvP enabled and disabled notifications no longer flood the screen. Different teams can enter raids, and same-team players no longer damage each other or lose teammate names.
 - Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling now work normally.
-- Host and remote-client entry and return at the Gas-station Shop have passed multiplayer testing. NPC, loot, extraction, and death flows also remained normal after round trips.
+- Host and remote-client entry and return at the Gas-station Shop have passed multiplayer testing. NPC and loot states also remained normal after round trips. The separate loss-of-control issue after returning from a raid is listed as a current blocker.
 - Sterile Bandages restore health normally, and medical-item use is no longer randomly interrupted.
 - Enemies patrol normally, no longer get stuck on high ground or vehicles, and turn after being attacked from behind. Their projectiles can hit players, and loot boxes now generate after enemies die.
 - Enemy projectiles now behave like player projectiles.

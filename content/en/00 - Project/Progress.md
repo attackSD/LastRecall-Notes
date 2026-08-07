@@ -17,12 +17,13 @@ tags:
 | --- | --- | --- |
 | ✅ | Player hideout | Works normally with no known issues. |
 | ✅ | Client reloading | Reloading and ammo consumption worked correctly in the latest multiplayer test. |
-| ✅ | Entering the map | The latest multiplayer test entered the map successfully; the earlier missing-map issue did not recur. |
+| 🛠 | Entering the map | The core raid flow can proceed, but multiplayer map preparation and startup can still occasionally fail to load and are being investigated. |
 | ✅ | Language options | Switching between Traditional and Simplified Chinese is now available in-game. |
 | 🛠 | Map-entry loading screen | A loading screen has been added when entering a map; it still needs continued multiplayer testing. |
 | ✅ | Raid PvP and team recognition | PvP turns on automatically when a player enters a raid world, and notification spam has been fixed. Different teams can enter raids; same-team players no longer damage each other and can see teammate names. |
 | ✅ | Gas-station Shop | Host and remote-client entry and return both passed multiplayer testing. NPC, loot, extraction, and death flows also remained normal after round trips. |
-| ✅ | Extraction and death handling | Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling have been fixed. |
+| 🛠 | Extraction and death handling | Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling have been fixed. A rare loss-of-control state after returning to the main world is tracked as a severe blocker. |
+| 🔴 | Raid return and map startup | In rare cases, players return from a raid with the character apparently loaded but completely unable to act. A stability adjustment for raid map startup has been added, but still needs actual multiplayer play verification. |
 | 🛠 | Reward Loot Boxes | Duplicate spawns and fragmented textures on raid entry have been fixed; sound and loot balance are still missing. |
 | 🛠 | Information display | Ammo and magazine counts display correctly. Keeping a text-only “Terra Coin: amount” display beside merchant transactions is a future improvement. |
 | 🛠 | Teleporter and departure | Team preparation and departure now work normally; the map-selection interface and block textures still need work. |

@@ -12,7 +12,7 @@ This page records only issues confirmed as fixed in actual play. Items still awa
 ## 2026-08-08 — Multiplayer and M1911 fixes
 
 - **Multiplayer Gas-station Shop loading stall**: Host and remote-client entry and return both passed actual multiplayer testing; players no longer become stuck on the loading screen.
-- **Round-trip regression checks**: After moving between the Gas-station Shop and Desert Wasteland, existing NPC and loot states remained normal. Normal extraction to the main world and raid death/return flows also remained normal.
+- **Round-trip regression checks**: In the Gas-station Shop and Desert Wasteland round-trip test at that time, existing NPC and loot states remained normal, and normal extraction and raid death/return flows passed. A later Host test found a separate possible loss-of-control issue after returning to the main world, now listed as a current blocker.
 - **M1911 held display**: Severe held-position drift and left/right flip problems are fixed. The weapon now follows the player's facing direction reliably; its held pose may receive later art polish.
 - **Dry-fire audio repetition**: Holding the fire button with an empty magazine no longer plays dry-fire audio at an abnormally high rate. It now follows the normal weapon-use rhythm.
 
