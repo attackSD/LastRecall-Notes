@@ -9,6 +9,10 @@ tags:
 
 This page organizes project progress by date. Updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-08 — Multiplayer Gas-station Shop entry issue
+
+- After the AI-system update, clients become stuck on the loading screen when entering the Gas-station Shop. This is now listed as a known multiplayer issue.
+
 ## 2026-08-07 — Crosshair system and firearm production continue
 
 - Added a crosshair system: each firearm has its own default aiming crosshair, and modifications can change it.

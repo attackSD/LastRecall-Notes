@@ -9,7 +9,9 @@ tags:
 
 ## Current blockers
 
-There are no confirmed functional blockers at the moment.
+| Item | Status | Details |
+| --- | --- | --- |
+| Client entering the Gas-station Shop | 🔴 Known issue | After the AI-system update, clients become stuck on the loading screen when entering the Gas-station Shop. |
 
 ## Still needs adjustment
 
@@ -29,7 +31,7 @@ There are no confirmed functional blockers at the moment.
 - Players entered the map successfully; the earlier missing-map issue did not recur in the latest test.
 - PvP enabled and disabled notifications no longer flood the screen. Different teams can enter raids, and same-team players no longer damage each other or lose teammate names.
 - Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling now work normally.
-- The Gas-station Shop portal, entry and exit countdowns, return flow, and interior-loot refreshing now work normally.
+- The Gas-station Shop portal, entry and exit countdowns, return flow, and interior-loot refreshing passed earlier multiplayer testing. After the AI-system update, clients now become stuck on the loading screen when entering the shop; this needs a fix.
 - Sterile Bandages restore health normally, and medical-item use is no longer randomly interrupted.
 - Enemies patrol normally, no longer get stuck on high ground or vehicles, and turn after being attacked from behind. Their projectiles can hit players, and loot boxes now generate after enemies die.
 - Enemy projectiles now behave like player projectiles.
