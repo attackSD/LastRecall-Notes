@@ -9,9 +9,20 @@ tags:
 
 This page organizes project progress by date. Updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
-## 2026-08-08 — Multiplayer Gas-station Shop entry issue
+## 2026-08-08 — Multiplayer Gas-station Shop and M1911 testing update
 
-- After the AI-system update, clients become stuck on the loading screen when entering the Gas-station Shop. This is now listed as a known multiplayer issue.
+**Completed or confirmed:**
+
+- Multiplayer Host and remote-client travel in both directions at the Gas-station Shop has been fixed and passed actual testing.
+- Existing NPCs, loot, normal extraction, and raid death/return flows all remained normal after travel between the Gas-station Shop and Desert Wasteland.
+- M1911 severe held-position drift and left/right flip issues are fixed.
+- M1911 custom gunshot audio has been confirmed to play correctly in actual gameplay; later work will focus on mixing and listening polish.
+- Holding the fire button with an empty magazine no longer causes dry-fire audio to repeat at an abnormally high rate. It now follows the normal weapon-use rhythm.
+
+**Issues found or still to address:**
+
+- Preparing a Desert Wasteland raid map in multiplayer can occasionally fail to load, preventing that raid from starting normally. This is under investigation.
+- M1911 held pose and gunshot listening feel may receive later polish, but are not current blockers.
 
 ## 2026-08-07 — Crosshair system and firearm production continue
 

@@ -21,7 +21,7 @@ tags:
 | ✅ | Language options | Switching between Traditional and Simplified Chinese is now available in-game. |
 | 🛠 | Map-entry loading screen | A loading screen has been added when entering a map; it still needs continued multiplayer testing. |
 | ✅ | Raid PvP and team recognition | PvP turns on automatically when a player enters a raid world, and notification spam has been fixed. Different teams can enter raids; same-team players no longer damage each other and can see teammate names. |
-| ✅ | Gas-station Shop | Entry, return, and loot-refresh flows have been fixed and now work normally. |
+| ✅ | Gas-station Shop | Host and remote-client entry and return both passed multiplayer testing. NPC, loot, extraction, and death flows also remained normal after round trips. |
 | ✅ | Extraction and death handling | Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling have been fixed. |
 | 🛠 | Reward Loot Boxes | Duplicate spawns and fragmented textures on raid entry have been fixed; sound and loot balance are still missing. |
 | 🛠 | Information display | Ammo and magazine counts display correctly. Keeping a text-only “Terra Coin: amount” display beside merchant transactions is a future improvement. |
@@ -31,14 +31,14 @@ tags:
 | ✅ | Enemy ranged attacks and loot | Projectile hits, player-matching projectile behaviour, and loot boxes after enemy deaths have all been fixed. |
 | 🛠 | Loot Boxes | Existing items and supplies can be searched normally and reveal contents gradually; sound and loot balance are still missing. |
 | 🛠 | Recovery Broker trading | The merchant can now buy modded items brought back from raids; item selection and prices still need balancing. |
-| 🛠 | Firearm overhaul | Firearm audio, weapon models, and attachments are being built in parallel. A new crosshair system gives each firearm and modification state its own default crosshair. All previous firearms have been removed; the modification system and M1911 are now integrated, including a suppressor, extended magazine, and Pistol Ammo. In-game and multiplayer testing and balance work remain. |
+| 🛠 | Firearm overhaul | Firearm audio, weapon models, and attachments are being built in parallel. A new crosshair system gives each firearm and modification state its own default crosshair. M1911 severe held-position and left/right flip issues are fixed, its custom gunshot audio now plays correctly in-game, and dry-fire audio no longer repeats at an abnormally high rate. Held pose and audio mixing may receive later polish; the overall firearm lineup and balance are still incomplete. |
 | ✅ | Supplies and medical items | Sterile Bandage healing and interrupted medical-item use have been fixed. |
 
 ## Current priorities
 
-1. Plan a text-only, always-visible Terra Coin total during merchant transactions.
-2. Verify and balance M1911, its attachments, crosshairs, and firearm audio in-game and in multiplayer.
-3. Build the basic Desert Wasteland map, then balance enemies, container loot, and trading prices.
+1. Build the basic Desert Wasteland map and balance enemy strength.
+2. Expand and balance M1911, its attachments, crosshairs, and firearm audio.
+3. Balance Loot Box contents and Recovery Broker prices, and plan an always-visible Terra Coin total during trading.
 
 ## Next directions
 

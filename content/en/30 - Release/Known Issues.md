@@ -11,7 +11,7 @@ tags:
 
 | Item | Status | Details |
 | --- | --- | --- |
-| Client entering the Gas-station Shop | 🔴 Known issue | After the AI-system update, clients become stuck on the loading screen when entering the Gas-station Shop. |
+| Desert Wasteland multiplayer raid loading | 🔴 Known issue | Preparing a raid map in multiplayer can occasionally fail to load, preventing that raid from starting normally. This is under investigation. |
 
 ## Still needs adjustment
 
@@ -19,11 +19,11 @@ tags:
 | --- | --- | --- |
 | Enemy strength | 🛠 Needs tuning | High-tier enemies can immediately down a 100-health player, and enemy health is high. |
 | Loot Box contents and trading prices | 🛠 Needs tuning | Loot Box contents and Recovery Broker prices need to be rebalanced around raid risk. |
-| Quality of existing firearm content | 🛠 Needs remake | Functionality has no obvious problems, but asset and audio sources are inconsistent in quality. |
+| Firearm content polish and expansion | 🛠 In progress | The M1911 core flow is usable. Held pose, audio mixing, and further firearm content are still being polished and expanded. |
 
 ## Items to test
 
-- The map-entry loading screen during multiplayer.
+- Reliability of preparing and starting Desert Wasteland raid maps in multiplayer.
 
 ## Recent multiplayer test: passed
 
@@ -31,7 +31,7 @@ tags:
 - Players entered the map successfully; the earlier missing-map issue did not recur in the latest test.
 - PvP enabled and disabled notifications no longer flood the screen. Different teams can enter raids, and same-team players no longer damage each other or lose teammate names.
 - Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling now work normally.
-- The Gas-station Shop portal, entry and exit countdowns, return flow, and interior-loot refreshing passed earlier multiplayer testing. After the AI-system update, clients now become stuck on the loading screen when entering the shop; this needs a fix.
+- Host and remote-client entry and return at the Gas-station Shop have passed multiplayer testing. NPC, loot, extraction, and death flows also remained normal after round trips.
 - Sterile Bandages restore health normally, and medical-item use is no longer randomly interrupted.
 - Enemies patrol normally, no longer get stuck on high ground or vehicles, and turn after being attacked from behind. Their projectiles can hit players, and loot boxes now generate after enemies die.
 - Enemy projectiles now behave like player projectiles.
