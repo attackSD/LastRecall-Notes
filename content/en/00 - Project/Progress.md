@@ -31,13 +31,14 @@ tags:
 | ✅ | Enemy ranged attacks and loot | Projectile hits, player-matching projectile behaviour, and loot boxes after enemy deaths have all been fixed. |
 | 🛠 | Loot Boxes | Existing items and supplies can be searched normally and reveal contents gradually; sound and loot balance are still missing. |
 | 🛠 | Recovery Broker trading | The merchant can now buy modded items brought back from raids; item selection and prices still need balancing. |
-| 🛠 | Existing firearms | Function correctly in single-player, but their assets and audio are inconsistent in quality. |
+| 🛠 | Firearm overhaul | Firearm audio, weapon models, and attachments are being built in parallel. A new crosshair system gives each firearm and modification state its own default crosshair. All previous firearms have been removed; the modification system and M1911 are now integrated, including a suppressor, extended magazine, and Pistol Ammo. In-game and multiplayer testing and balance work remain. |
 | ✅ | Supplies and medical items | Sterile Bandage healing and interrupted medical-item use have been fixed. |
 
 ## Current priorities
 
 1. Plan a text-only, always-visible Terra Coin total during merchant transactions.
-2. Build the basic Desert Wasteland map, then balance enemies, container loot, and trading prices.
+2. Verify and balance M1911, its attachments, crosshairs, and firearm audio in-game and in multiplayer.
+3. Build the basic Desert Wasteland map, then balance enemies, container loot, and trading prices.
 
 ## Next directions
 

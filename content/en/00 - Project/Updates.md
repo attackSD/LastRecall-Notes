@@ -9,10 +9,19 @@ tags:
 
 This page organizes project progress by date. Updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
-## 2026-08-06 — Enemy projectile behaviour fixed
+## 2026-08-07 — Crosshair system and firearm production continue
+
+- Added a crosshair system: each firearm has its own default aiming crosshair, and modifications can change it.
+- Gunshot audio, weapon models, and attachments are being built and adjusted in parallel.
+
+## 2026-08-06 — Enemy projectile fix and firearm overhaul in progress
 
 - Enemy projectiles now behave like player projectiles.
 - Confirmed in multiplayer testing.
+- The firearm overhaul has begun: all previous firearms were removed, and firearm audio and assets are being reworked.
+- The modification system is now live, with M1911, Pistol Ammo, a suppressor, and an extended magazine integrated. Attachments affect weapon appearance and some performance values; in-game and multiplayer verification remains.
+- Gunshot audio now accounts for open areas, interiors, underground spaces, and tunnels, and distinguishes dry fire and suppressed shots. Listening tests and balance work remain.
+- Recoil settings are now being introduced for firearms and attachments; numerical balance is not finished.
 
 ## 2026-08-05 — Multiplayer testing and map-entry flow update
 

@@ -15,13 +15,15 @@ Desert Wasteland will be a desolate, dangerous location that rewards deeper expl
 
 The existing firearms, magazines, and ammunition have no obvious single-player functionality problems, but they rely heavily on external assets and audio, resulting in inconsistent quality.
 
-A future firearm overhaul will use original assets and sound. The plans below are confirmed for implementation, though their release timing is not yet set.
+The firearm overhaul is now in progress. All previous firearms have been removed; gunshot audio, weapon models, and attachments are being built and adjusted in parallel.
 
-### Confirmed future firearm plans
+### Firearm overhaul in progress
 
-- **Weapon modifications and attachments:** Modifications will change a weapon's appearance as well as its function.
-- **Firearm recoil overhaul:** Add more detailed recoil behaviour that can be tuned for each weapon.
-- **Firearm audio overhaul:** Terrain and enclosed spaces will change firearm sounds; empty-magazine shots and suppressed firearms will also have distinct audio.
+- **Weapon modification system:** Now live; modifications change a weapon's appearance as well as its function.
+- **M1911:** Added as the current firearm and uses Pistol Ammo. Its suppressor and extended magazine are integrated, pending in-game and multiplayer verification and balance work.
+- **Crosshair system:** Each firearm has its own default aiming crosshair, and modifications can change it.
+- **Firearm audio overhaul:** Audio now accounts for open areas, interiors, underground spaces, and tunnels, and distinguishes dry fire and suppressed shots. The in-game listening experience is still being tuned.
+- **Firearm recoil overhaul:** Adjustable recoil settings are now being introduced for firearms and attachments; numerical balance is not finished.
 
 ## Items and supplies
 
