@@ -7,12 +7,6 @@ tags:
 
 # LastRecall Known Issues and Testing
 
-## Current verification item
-
-| Item                             | Status                   | Details                                                                                                                                      |
-| -------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Background Raid sector lifecycle | 🔍 Awaiting verification | A remaining edge case involving replacement background Raid sectors has an implemented fix and is still awaiting final runtime verification. |
-
 ## Still needs adjustment
 
 | Item                                 | Status          | Details                                                                                                                              |

@@ -9,7 +9,7 @@ tags:
 
 ## In progress
 
-**Desert Wasteland** is LastRecall's first major Raid. The core vertical slice is playable; current work is final gameplay verification for the background Raid-sector lifecycle, alongside continuing map, exploration, enemy, and loot construction.
+**Desert Wasteland** is LastRecall's first major Raid. The core vertical slice is playable, and the background Raid-sector lifecycle has passed Host & Play regression testing. Current work continues on map, exploration, enemy, and loot construction.
 
 ## Feature overview
 
@@ -23,7 +23,7 @@ tags:
 | ✅     | Raid PvP and team recognition    | PvP turns on automatically in a Raid, notification spam is fixed, different teams can enter, and same-team players no longer damage each other and can see teammate names.                                                                                                                                                                                                                                                     |
 | ✅     | Gas-station Shop                 | Works as a separate indoor area. Host and remote-client entry and return both passed multiplayer testing; NPC, loot, extraction, and death flows remained normal after round trips. Scenes, exploration content, and art will continue to expand.                                                                                                                                                                              |
 | ✅     | Extraction, death, and recovery  | Multiplayer extraction points and countdowns, respawning, and dropped-item handling are fixed. Death drops can be recovered and do not duplicate in a later Raid. The main-world control regression after Raid return also passed Host & Play regression testing.                                                                                                                                                              |
-| 🛠     | Background Raid-sector lifecycle | An edge case involving replacement background Raid sectors has an implemented fix and awaits final actual-game verification.                                                                                                                                                                                                                                                                                                   |
+| ✅     | Background Raid-sector lifecycle | The edge case involving replacement background Raid sectors is fixed and passed Host & Play runtime regression testing.                                                                                                                                                                                                                                                                                                          |
 | 🛠     | Reward Loot Boxes                | Duplicate spawns and fragmented textures on Raid entry are fixed; search sound and loot balance are still missing.                                                                                                                                                                                                                                                                                                             |
 | 🛠     | Information display              | Ammo and magazine counts display correctly. An always-visible text-only Terra Coin total beside merchant transactions is a future improvement.                                                                                                                                                                                                                                                                                 |
 | 🛠     | Teleporter and departure         | Team preparation and departure work normally; the map-selection interface and block textures still need work.                                                                                                                                                                                                                                                                                                                  |
@@ -40,9 +40,8 @@ tags:
 
 ## Current priorities
 
-1. Complete final regression verification for the background Raid-sector lifecycle.
-2. Build Desert Wasteland's map, enemies, supplies, and atmosphere, and balance enemy strength.
-3. Expand and balance M1911, attachments, crosshairs, and firearm audio, together with Loot Box contents and Recovery Broker prices.
+1. Build Desert Wasteland's map, enemies, supplies, and atmosphere, and balance enemy strength.
+2. Expand and balance M1911, attachments, crosshairs, and firearm audio, together with Loot Box contents and Recovery Broker prices.
 
 ## Next directions
 

@@ -16,12 +16,12 @@ This page organises project progress by date; updates from the same day are comb
 - Host and remote-client round trips between the Exterior and Gas-station Shop passed multiplayer testing. Existing NPC and loot states remained normal after travel, and normal extraction plus Raid death/return flows also passed regression checks.
 - The Raid-to-main-world control regression, where a player could not move or open the menu after returning, is resolved and passed Host-and-player regression testing.
 - Raid death drops return correctly after re-entering the Exterior. After all drops are recovered, extracting, and starting a new Raid, the old drops do not appear again.
+- The edge case involving replacement background Raid sectors is fixed and passed Host & Play runtime regression testing.
 - Severe M1911 held-position drift and left/right flipping are fixed; custom M1911 gunshot audio was confirmed to play in actual gameplay.
 - Dry-fire audio no longer repeats at an abnormally high rate and now follows the normal weapon-use cadence.
 
 **Still to complete:**
 
-- An edge case in the replacement background Raid sector lifecycle has an implemented fix but still awaits final runtime verification.
 - M1911 held-pose art, gunshot mixing, the firearm lineup, loot, and prices remain in refinement.
 
 ## 2026-08-07 — Crosshair system and firearm production continue

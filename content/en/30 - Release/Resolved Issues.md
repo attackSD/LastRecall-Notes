@@ -18,6 +18,7 @@ This page records only issues confirmed as fixed in actual play; items awaiting 
 - **M1911 held display**: Severe held-position drift and left/right flipping are fixed. The held pose may still receive later art polish.
 - **Dry-fire audio repetition**: Holding fire with an empty magazine no longer plays dry-fire audio at an abnormally high rate.
 - **M1911 custom gunshot confirmation**: Actual gameplay confirmed that normal fire uses the current M1911 custom gunshot; later work focuses on mixing and listening polish.
+- **Background Raid-sector lifecycle**: The edge case involving replacement background Raid sectors is fixed and passed Host & Play runtime regression testing.
 
 **Status:** ✅ All items above passed actual gameplay testing.
 
