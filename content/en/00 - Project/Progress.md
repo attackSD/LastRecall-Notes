@@ -7,6 +7,8 @@ tags:
 
 # LastRecall Current Progress
 
+Core Raid entry, extraction, death return, and death-drop recovery are now functioning in the current vertical slice. Current technical work is focused on the remaining background sector lifecycle regression before further NPC AI and content expansion.
+
 ## In progress
 
 **Desert Wasteland** is still in a very early map-building phase. Terrain, exploration routes, buildings and scenes, and atmosphere are all being built from a prototype level.

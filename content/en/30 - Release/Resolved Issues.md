@@ -7,6 +7,13 @@ tags:
 
 # LastRecall Resolved Issues
 
+## 2026-08-08 — Raid recovery and return controls
+
+- **Raid return controls**: Fixed an issue where returning from a Raid to the main world could leave the player unable to move or open menus. Runtime regression tests have passed.
+- **Raid death recovery**: Fixed an issue where items dropped after dying in a Raid could fail to reappear when entering the Raid again. Recovery and duplication-prevention regression tests have passed.
+
+**Status:** Confirmed fixed through runtime testing.
+
 This page records only issues confirmed as fixed in actual play. Items still awaiting verification remain in [[en/30 - Release/Known Issues|Known Issues and Testing]]. Fixes from the same day are combined into one entry.
 
 ## 2026-08-08 — Multiplayer and M1911 fixes

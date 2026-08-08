@@ -9,6 +9,8 @@ tags:
 
 ## Current blockers
 
+| Background sector lifecycle | Awaiting verification | A remaining edge case involving replacement background Raid sectors is still awaiting runtime verification. |
+
 | Item | Status | Details |
 | --- | --- | --- |
 | Loss of control after returning from a raid | 🔴 Severe blocker | In rare cases, evacuating from a raid back to the main world leaves the character apparently loaded but completely unable to act. This is under investigation. One reproduction occurred while a raid chest was still open; whether the two are related is still being checked. |

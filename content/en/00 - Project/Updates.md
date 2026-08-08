@@ -7,6 +7,12 @@ tags:
 
 # LastRecall Update Log
 
+## 2026-08-08 — Raid recovery and return-controls update
+
+- Raid-to-main-world return controls are resolved and have passed runtime regression testing.
+- Raid death recovery and prevention of duplicate recovery drops have passed runtime verification.
+- A remaining background sector lifecycle regression is still awaiting runtime verification.
+
 This page organizes project progress by date. Updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
 ## 2026-08-08 — Multiplayer Gas-station Shop and M1911 testing update
