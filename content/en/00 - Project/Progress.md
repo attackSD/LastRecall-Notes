@@ -7,48 +7,31 @@ tags:
 
 # LastRecall Current Progress
 
-Core Raid entry, extraction, death return, and death-drop recovery are now functioning in the current vertical slice. Current technical work is focused on the remaining background sector lifecycle regression before further NPC AI and content expansion.
+Desert Wasteland is LastRecall's first major Raid and the core of the current vertical slice. The current focus is stabilising that Raid loop, continuing map-content development, and completing final runtime verification for the background Raid sector lifecycle.
 
-## In progress
+## Current milestones
 
-**Desert Wasteland** is still in a very early map-building phase. Terrain, exploration routes, buildings and scenes, and atmosphere are all being built from a prototype level.
-
-## Feature overview
-
-| Status | Feature | Current state |
-| --- | --- | --- |
-| ✅ | Player hideout | Works normally with no known issues. |
-| ✅ | Client reloading | Reloading and ammo consumption worked correctly in the latest multiplayer test. |
-| 🛠 | Entering the map | The core raid flow can proceed, but multiplayer map preparation and startup can still occasionally fail to load and are being investigated. |
-| ✅ | Language options | Switching between Traditional and Simplified Chinese is now available in-game. |
-| 🛠 | Map-entry loading screen | A loading screen has been added when entering a map; it still needs continued multiplayer testing. |
-| ✅ | Raid PvP and team recognition | PvP turns on automatically when a player enters a raid world, and notification spam has been fixed. Different teams can enter raids; same-team players no longer damage each other and can see teammate names. |
-| ✅ | Gas-station Shop | Host and remote-client entry and return both passed multiplayer testing. NPC, loot, extraction, and death flows also remained normal after round trips. |
-| 🛠 | Extraction and death handling | Multiplayer extraction points and countdowns, respawning after death, and dropped-item handling have been fixed. A rare loss-of-control state after returning to the main world is tracked as a severe blocker. |
-| 🔴 | Raid return and map startup | In rare cases, players return from a raid with the character apparently loaded but completely unable to act. A stability adjustment for raid map startup has been added, but still needs actual multiplayer play verification. |
-| 🛠 | Reward Loot Boxes | Duplicate spawns and fragmented textures on raid entry have been fixed; sound and loot balance are still missing. |
-| 🛠 | Information display | Ammo and magazine counts display correctly. Keeping a text-only “Terra Coin: amount” display beside merchant transactions is a future improvement. |
-| 🛠 | Teleporter and departure | Team preparation and departure now work normally; the map-selection interface and block textures still need work. |
-| 🛠 | Expedition loadout management | Items not taken out are temporarily kept in hideout storage; the final persistence method is still being planned. |
-| 🛠 | Enemies | Patrol, stuck, and turn-reaction issues have been fixed; enemy strength still needs balancing. |
-| ✅ | Enemy ranged attacks and loot | Projectile hits, player-matching projectile behaviour, and loot boxes after enemy deaths have all been fixed. |
-| 🛠 | Loot Boxes | Existing items and supplies can be searched normally and reveal contents gradually; sound and loot balance are still missing. |
-| 🛠 | Recovery Broker trading | The merchant can now buy modded items brought back from raids; item selection and prices still need balancing. |
-| 🛠 | Firearm overhaul | Firearm audio, weapon models, and attachments are being built in parallel. A new crosshair system gives each firearm and modification state its own default crosshair. M1911 severe held-position and left/right flip issues are fixed, its custom gunshot audio now plays correctly in-game, and dry-fire audio no longer repeats at an abnormally high rate. Held pose and audio mixing may receive later polish; the overall firearm lineup and balance are still incomplete. |
-| ✅ | Supplies and medical items | Sterile Bandage healing and interrupted medical-item use have been fixed. |
+| Status | Feature                                 | Current state                                                                                                                                                    |
+| ------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅     | Player hideout                          | Works normally.                                                                                                                                                  |
+| ✅     | Raid entry, Exterior, and sector travel | The basic flow is working.                                                                                                                                       |
+| ✅     | Extraction and death return             | Extraction / evacuation and death return are working.                                                                                                            |
+| ✅     | Death-drop recovery                     | Recovery and duplicate-generation prevention have passed runtime regression testing.                                                                             |
+| ✅     | Raid return controls                    | The inability to move or open menus after returning to the main world is fixed and passed Host-and-player regression testing.                                    |
+| ✅     | Gas-station Shop                        | It now works as an independent indoor area; Host and remote-client round trips passed multiplayer testing. Scenes, exploration, and art will continue to expand. |
+| ✅     | Basic merchant flow                     | The Recovery Broker can handle modded items brought back from raids; contents and prices still need balancing.                                                   |
+| ✅     | Encounter Phase 1                       | Complete.                                                                                                                                                        |
+| ✅     | NPC Perception Phase 2A                 | Complete.                                                                                                                                                        |
+| 🛠     | Background Raid sector lifecycle        | An edge case in replacement background sectors has an implemented fix and is awaiting final runtime verification.                                                |
+| 🔵     | NPC Perception Phase 2B                 | Not started.                                                                                                                                                     |
+| 🛠     | Desert Wasteland content                | Map, enemies, loot, atmosphere, and exploration content are still in early development and expansion.                                                            |
+| 🛠     | Firearms and audio                      | The M1911 basic in-game flow is verified; held-pose art, mixing, attachments, lineup, and balance remain in refinement.                                          |
+| ✅     | Supplies and medical items              | Sterile Bandage healing and abnormal interruption of medical-item use are fixed and have passed multiplayer testing.                                             |
 
 ## Current priorities
 
-1. Build the basic Desert Wasteland map and balance enemy strength.
-2. Expand and balance M1911, its attachments, crosshairs, and firearm audio.
-3. Balance Loot Box contents and Recovery Broker prices, and plan an always-visible Terra Coin total during trading.
+1. Complete final regression verification for the background Raid sector lifecycle.
+2. Continue building Desert Wasteland's map, enemies, loot, and atmosphere.
+3. Continue NPC AI and content expansion after the core Raid is stable, while balancing firearms, loot, and merchant prices.
 
-## Next directions
-
-- Make enemy spawns and extraction points easier to tune through configuration.
-- Build the Gas-station Shop interior and allow future maps to have multiple extraction points.
-- Remake firearm and item assets; firearm modifications will also change weapon appearance.
-
-For unplanned ideas, see [[en/20 - Content/Future Ideas|Future Ideas]].
-
-For complete testing and known issues, see [[en/30 - Release/Known Issues|Known Issues and Testing]].
+For unscheduled ideas, see [[en/20 - Content/Future Ideas|Future Ideas]]. For full testing status, see [[en/30 - Release/Known Issues|Known Issues and Testing]].

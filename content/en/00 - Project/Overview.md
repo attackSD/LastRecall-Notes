@@ -7,25 +7,21 @@ tags:
 
 # LastRecall Project Overview
 
-LastRecall is a Terraria mod built around **preparation, looting, and extraction**. Players leave their hideout with a chosen loadout and enter dangerous areas; getting out safely determines whether an expedition succeeds.
+LastRecall is a Terraria mod centred on preparation, looting, and extraction. The project currently focuses on stabilising the first Raid vertical slice and building Desert Wasteland content.
 
-## What we are building now
+## Project direction
 
-The current focus is the first raid map: **Desert Wasteland**. It is still at a very early stage, with terrain, exploration routes, scenes, and atmosphere all being built.
+- Prepare equipment in the hideout before entering a Raid.
+- Bring supplies back through extraction, then sort and trade them.
+- Expand enemies, loot, firearms, and map content over time.
 
-## Core features currently available
+## Current scope
 
-- A player hideout and a teleporter for entering maps.
-- Enemies, searchable Loot Boxes, extraction points, and one chance to recover items after death.
-- A Gas-station Shop that can be entered and exited normally.
-- Buying and selling through the Recovery Broker.
+- A working player hideout.
+- A Raid vertical slice with entry, exploration, travel, extraction, and death return.
+- An indoor Gas-station Shop area that can be entered and exited.
+- The M1911 and its basic firearm, attachment, and audio flows.
 
-These features are at different stages of completion. See [[en/00 - Project/Progress|Current Progress]] for details.
-
-## Project goals
-
-- Make deeper exploration worth its risk.
-- Make extraction the most important decision in every expedition.
-- Gradually establish a consistent style for maps, firearms, items, audio, and visuals.
+These features are at different stages of completion; see [[en/00 - Project/Progress|Current Progress]] for details.
 
 Related: [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/20 - Content/Content Direction|Content Direction]]
