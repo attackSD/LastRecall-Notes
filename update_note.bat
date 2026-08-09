@@ -2,7 +2,7 @@
 setlocal EnableExtensions
 cd /d "%~dp0"
 
-set "SITE_URL=https://attacksd.github.io/LastRecall/"
+set "SITE_URL=https://attacksd.github.io/LastRecall-Notes/"
 set "GH_EXE=gh"
 if exist "%ProgramFiles%\GitHub CLI\gh.exe" set "GH_EXE=%ProgramFiles%\GitHub CLI\gh.exe"
 
@@ -28,7 +28,7 @@ set "RUN_ID="
 set "RUN_FILE=%TEMP%\lastrecall-pages-run.txt"
 for /L %%i in (1,1,12) do (
   set "RUN_ID="
-  "%GH_EXE%" run list --repo attackSD/LastRecall --branch v4 --commit %COMMIT_SHA% --limit 1 --json databaseId --jq ".[0].databaseId" > "%RUN_FILE%" 2>nul
+  "%GH_EXE%" run list --repo attackSD/LastRecall-Notes --branch v4 --commit %COMMIT_SHA% --limit 1 --json databaseId --jq ".[0].databaseId" > "%RUN_FILE%" 2>nul
   set /p RUN_ID=<"%RUN_FILE%"
   if defined RUN_ID goto :watch
   timeout /t 5 /nobreak >nul 2>&1
@@ -40,7 +40,7 @@ goto :error
 :watch
 del /q "%RUN_FILE%" >nul 2>&1
 echo Waiting for GitHub Pages to finish publishing...
-"%GH_EXE%" run watch %RUN_ID% --repo attackSD/LastRecall --exit-status
+"%GH_EXE%" run watch %RUN_ID% --repo attackSD/LastRecall-Notes --exit-status
 if errorlevel 1 goto :error
 
 start "" "%SITE_URL%"
