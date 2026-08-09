@@ -3,12 +3,16 @@ title: LastRecall Future Ideas
 tags:
   - lastrecall
   - ideas
-status: unplanned
+status: mixed
 ---
 
 # LastRecall Future Ideas
 
-The following directions are worth discussing further, but **none is scheduled or committed for development**. Their priority will be decided after Desert Wasteland and the current issues are stable.
+This page separates confirmed medium-term plans from directions that still need discussion. The latter will be prioritised after Desert Wasteland and the current issues are stable.
+
+## Confirmed medium-term plan
+
+- **Hideout firearm modification bench:** This will be an important hideout facility rather than a gun-customisation feature available anywhere. Players will bring back found optics, suppressors, and other attachments, install them at the bench, and see the weapon's appearance change immediately—supporting the feeling of building a personal firearm. It can later grow naturally into saved loadouts, quick full-set removal, build saving, attachment comparison, and buying missing parts from the merchant directly in the modification screen.
 
 ## Hideout and survival
 
