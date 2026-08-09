@@ -9,6 +9,13 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-09 — Gun combat feel and hit feedback
+
+- The playable core of the M1911 as the first firearm continues to be integrated: held display, aiming, recoil, semi-automatic fire, reloading, and attachments remain in refinement.
+- Started the M1911-versus-RaidScavenger gun-combat-feel vertical slice. Blood marks and a brief visual reaction when an enemy is hit have passed Host runtime testing.
+- This is visual hit feedback, not completed advanced enemy movement or combat reactions; what remote multiplayer players see still needs confirmation.
+- Later work will add impact audio, muzzle and kill feedback. Environment tails for gunfire in different spaces and terrain remain planned, not complete.
+
 ## 2026-08-08 — Raid, Gas-station Shop, and M1911 update
 
 **Completed or confirmed:**
@@ -34,7 +41,7 @@ This page organises project progress by date; updates from the same day are comb
 - Enemy projectiles were changed to behave like player projectiles, with multiplayer testing confirming normal results.
 - The firearm overhaul began: previous firearms were removed, while audio and weapon assets are being rebuilt.
 - The modification system is now available. M1911, Pistol Ammo, a suppressor, and an extended magazine were added; attachments affect weapon appearance and some performance.
-- Gunshot audio now distinguishes open areas, interiors, underground spaces, and tunnels, as well as dry fire and suppressed shots. Recoil settings are also being introduced for firearms and attachments; sound feel and balance are still being tuned.
+- Gunshot audio work added dry-fire, suppressed-shot, and mechanical feedback layers. Environment tails for open areas, interiors, underground spaces, and tunnels remain planned; recoil settings are also being introduced for firearms and attachments, while sound feel and balance continue to be tuned.
 
 ## 2026-08-05 — Multiplayer testing and map-entry flow
 

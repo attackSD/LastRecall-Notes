@@ -17,8 +17,12 @@ The firearm overhaul is in progress, with gunshot audio, weapon models, attachme
 
 - **Modification system:** Live; attachments change weapon appearance and some performance values.
 - **M1911:** Its core in-game flow, held position, left/right facing, custom gunshot playback, and dry-fire cadence are verified. Held-pose art, audio mixing, attachments, the firearm lineup, and balance remain in refinement.
-- **Firearm audio:** Open areas, interiors, underground spaces, tunnels, dry fire, and suppressed shots are distinguished; listening and mixing still need polish.
+- **Firearm audio:** M1911 basic fire, dry-fire, and mechanical feedback are being organised and refined. Environment tails for different spaces and terrain are a later production direction, not current completed content.
 - **Recoil and crosshairs:** The systems are in use, but numerical balance is not finished.
+
+## Gun combat feel
+
+The first vertical slice is real combat between the M1911 and RaidScavenger. Blood marks and a brief visual reaction when an enemy is hit have passed Host runtime testing. This is hit feedback, not completed advanced enemy movement or combat reactions. Later work will add impact audio, muzzle and kill feedback, and verify what remote multiplayer players see.
 
 ## Items and supplies
 

@@ -9,11 +9,11 @@ tags:
 
 ## Still needs adjustment
 
-| Item                                 | Status          | Details                                                                                                                              |
-| ------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Enemy strength                       | 🛠 Needs tuning | High-tier enemy damage and health still need to be balanced around Raid risk.                                                        |
-| Loot Box contents and trading prices | 🛠 Needs tuning | Loot Box contents, search sounds, and Recovery Broker prices still need adjustment.                                                  |
-| Firearm content polish and expansion | 🛠 In progress  | The M1911 core flow is verified in-game; held pose, audio mixing, attachments, the firearm lineup, and balance remain in refinement. |
+| Item                                 | Status          | Details                                                                                                                                                                                                                               |
+| ------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enemy strength                       | 🛠 Needs tuning | High-tier enemy damage and health still need to be balanced around Raid risk.                                                                                                                                                         |
+| Loot Box contents and trading prices | 🛠 Needs tuning | Loot Box contents, search sounds, and Recovery Broker prices still need adjustment.                                                                                                                                                   |
+| Firearm content polish and expansion | 🛠 In progress  | The M1911 core flow is verified in-game. Hit feedback, held pose, audio mixing, attachments, environment-tail audio, the firearm lineup, and balance remain in refinement; remote multiplayer observation will continue to be tested. |
 
 ## Recent testing passed
 
