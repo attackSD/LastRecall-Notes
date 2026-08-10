@@ -9,6 +9,15 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-10 — Gun combat feedback continues
+
+- M1911 hits now have clearer blood and visual reactions, with flesh-impact audio added; shots hitting enemies and shots hitting walls are clearly distinguished.
+- Fixed a close-wall firing issue that could place a bullet beyond the wall; bullets are now blocked normally by walls.
+- Added and tuned muzzle flash, sparks, smoke, and a brief lighting effect to make the firing-to-hit feedback loop clearer.
+- Multiplayer muzzle flash and smoke synchronisation has entered runtime testing; the two-player Host & Play check is not complete yet.
+- Refined the M1911 dry-fire sound to be shorter and clearer; multiplayer testing will still check how easily it can be recognised.
+- Added an initial lethal-hit effect so the final shot has a clearer visual difference from an ordinary hit; player readability during normal combat still needs observation.
+
 ## 2026-08-09 — Gun combat feel and hit feedback
 
 - The playable core of the M1911 as the first firearm continues to be integrated: held display, aiming, recoil, semi-automatic fire, reloading, and attachments remain in refinement.

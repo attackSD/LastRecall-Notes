@@ -22,6 +22,10 @@ A Raid follows a straightforward loop:
 - Loot Boxes reveal their contents gradually, while enemies create pressure during exploration.
 - The Recovery Broker can handle items brought back from raids, although loot and prices still need balancing.
 
+## Gun combat feel
+
+The M1911-versus-RaidScavenger slice is beginning to connect the full combat feedback loop: firing feedback, hit visuals, flesh-impact sound, and lethal-hit feedback. Close-wall firing now behaves correctly. Multiplayer muzzle-effect synchronisation and whether players naturally recognise lethal hits still need testing.
+
 ## Still needs polish
 
 - Desert Wasteland remains in an early map and content-building phase.
