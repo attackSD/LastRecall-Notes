@@ -1,26 +1,11 @@
-# LastRecall Project Notes
+# LastRecall 公開開發筆記
 
-An independent Quartz knowledge base for the LastRecall mod project. Write notes in `content/`, run `npm install` once, and preview with `npx quartz build --serve`.
+這是 LastRecall Terraria 模組的公開開發筆記，記錄目前可以遊玩的內容、近期更新、已修正問題，以及接下來的製作方向。
 
-## First publish
+LastRecall 是一款以「準備、進入 Raid、探索、戰鬥、搜刮、撤離」為核心的模組。玩家需要把物資安全帶回基地，再準備下一次出擊。
 
-The public Notes repository is `attackSD/LastRecall-Notes`. In its **Settings → Pages**, set the source to **GitHub Actions**. Then run `update_note.bat` from this folder.
+閱讀已發布的筆記網站：
 
-Publishing the `v4` branch to `https://github.com/attackSD/LastRecall-Notes` will deploy the website to `https://attackSD.github.io/LastRecall-Notes/` through GitHub Pages.
+<https://attacksd.github.io/LastRecall-Notes/>
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+本儲存庫也保留網站所需的 Markdown 原始內容；網站維護流程不放在玩家介紹頁面中。

@@ -7,21 +7,18 @@ tags:
 
 # LastRecall Project Overview
 
-LastRecall is a Terraria mod centred on preparation, looting, and extraction. The project currently focuses on stabilising the first Raid vertical slice and building Desert Wasteland content.
+LastRecall is a Terraria mod built around preparing at base, exploring a Raid, fighting, looting, and extracting safely. The goal is to bring supplies home and prepare for the next trip.
 
-## Project direction
+## What happens in a Raid?
 
-- Prepare equipment in the hideout before entering a Raid.
-- Bring supplies back through extraction, then sort and trade them.
-- Expand enemies, loot, firearms, and map content over time.
+Prepare at Base → depart → enter Desert Wasteland → explore and fight → search for loot → choose when to extract → return to Base.
 
 ## Current scope
 
-- A working player hideout.
-- A Raid vertical slice with entry, exploration, travel, extraction, and death return.
-- An indoor Gas-station Shop area that can be entered and exited.
-- The M1911 and its basic firearm, attachment, and audio flows.
+- Desert Wasteland is the current main Raid map. A simple early layout is being used to test the complete playable flow.
+- The hideout, departure, extraction, death handling, enemies, searchable Loot Boxes, trading, and basic medical items are in place at different stages.
+- M1911 is the most developed firearm. AK-47 and MP5 can be played through the basic flow, but still use temporary artwork.
 
-These features are at different stages of completion; see [[en/00 - Project/Progress|Current Progress]] for details.
+See [[en/00 - Project/Progress|Current Progress]] for details.
 
 Related: [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/20 - Content/Content Direction|Content Direction]]

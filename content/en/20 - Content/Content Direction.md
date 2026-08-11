@@ -9,29 +9,28 @@ tags:
 
 ## World and Raid
 
-Desert Wasteland is the first major Raid and vertical slice: a desolate, dangerous location that rewards deeper exploration. The Gas-station Shop now works as an independent indoor area connected to the wasteland; scenes, exploration, and art will continue to expand.
+Desert Wasteland is the main Raid map. A simple layout is being used first for spawn areas, combat spaces, loot locations, and extraction routes so map size, travel time, combat rhythm, and risk versus reward can be tuned before final art is made. The Gas-station Shop is already a usable indoor area and will continue to gain more scenery and things to explore.
 
 ## Firearms
 
-The firearm overhaul is in progress, with gunshot audio, weapon models, attachments, and crosshairs being adjusted together.
+The basic shooting flow for ordinary firearms has been confirmed with M1911, temporary-art AK-47, and temporary-art MP5. Future ordinary guns can focus on their own art, sounds, attachments, numbers, and feel; the final AK-47 and MP5 content is not finished.
 
-- **Modification system:** Live; attachments change weapon appearance and some performance values.
-- **M1911:** Its core in-game flow, held position, left/right facing, custom gunshot playback, and dry-fire cadence are verified. Held-pose art, audio mixing, attachments, the firearm lineup, and balance remain in refinement.
-- **Firearm audio:** M1911 basic fire, dry-fire, and mechanical feedback are being organised and refined. Environment tails for different spaces and terrain are a later production direction, not current completed content.
-- **Recoil and crosshairs:** The systems are in use, but numerical balance is not finished.
+- **Modification system:** Available; attachments change weapon appearance and some performance.
+- **M1911:** The most developed firearm. Held position, facing, custom gunshot, and dry-fire sound are confirmed; pose art, mixing, attachments, and balance still need polish.
+- **Combat feedback:** Blood on hits, flesh-hit audio, muzzle flash and smoke, close-wall firing, and an initial lethal-hit effect are in place. Other players seeing muzzle effects in multiplayer and how easily lethal hits are noticed still need testing.
+- **Different spaces:** Gunshot differences for open areas, indoor spaces, underground areas, and tunnels are still being made.
+- **Recoil and crosshairs:** Basic features are present, but numbers and balance are not finished.
 
-## Gun combat feel
-
-The first vertical slice is real combat between the M1911 and RaidScavenger. Blood marks and a brief visual reaction when an enemy is hit have passed Host runtime testing. This is hit feedback, not completed advanced enemy movement or combat reactions. Later work will add impact audio, muzzle and kill feedback, and verify what remote multiplayer players see.
+Shotguns, pump actions, tube magazines, bolt actions, and belt-fed weapons will be developed later.
 
 ## Items and supplies
 
-The current item pool is small and will continue to expand with original assets. Sterile Bandage healing and abnormal interruption of medical-item use are fixed and have passed multiplayer testing.
+The item pool is still small and original assets will be added over time. Sterile Bandage healing and interrupted medical-item use are fixed.
 
 ## Loot and trading
 
-Searchable Loot Boxes are available and reveal their contents gradually. Search sounds are still missing, and loot and Recovery Broker prices still need balancing.
+Loot Boxes can be searched and reveal their contents gradually. Search sounds are still missing, and loot and merchant prices still need balancing.
 
-Unscheduled ideas are collected in [[en/20 - Content/Future Ideas|Future Ideas]] and kept separate from current development commitments.
+Unscheduled ideas are collected in [[en/20 - Content/Future Ideas|Future Ideas]].
 
 Related: [[en/00 - Project/Progress|Current Progress]] · [[en/10 - Gameplay/Game Experience|Game Experience]]

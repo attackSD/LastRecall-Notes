@@ -9,26 +9,26 @@ tags:
 
 ## Still needs adjustment
 
-| Item                                 | Status          | Details                                                                                                                                                                                                                                                                                                                      |
-| ------------------------------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enemy strength                       | 🛠 Needs tuning | High-tier enemy damage and health still need to be balanced around Raid risk.                                                                                                                                                                                                                                                |
-| Loot Box contents and trading prices | 🛠 Needs tuning | Loot Box contents, search sounds, and Recovery Broker prices still need adjustment.                                                                                                                                                                                                                                          |
-| Firearm content polish and expansion | 🛠 In progress  | M1911, the AK-47 placeholder, and the MP5 placeholder support the basic firearm flow in-game. Placeholder art and held alignment, multiplayer muzzle-effect synchronisation, lethal-hit readability, audio, environment tails, attachments, the firearm lineup, balance, and special weapon mechanisms remain in refinement. |
+| Item | Status | Details |
+| ---- | ---- | ---- |
+| Enemy strength | 🛠 Needs tuning | High-tier enemy damage and health still need to match the risk of a Raid. |
+| Loot and trading prices | 🛠 Needs tuning | Loot Box contents, search sounds, and merchant prices still need adjustment. |
+| Firearm content and polish | 🛠 In progress | M1911, temporary-art AK-47, and temporary-art MP5 support the basic firearm flow. Final artwork and held placement, what other players see for muzzle effects, lethal-hit readability, audio, different sounds for different spaces, attachments, more firearms, balance, and special weapon actions are still unfinished. |
 
-## Recent testing passed
+## Currently stable areas
 
-- Raid entry, Exterior, sector travel, extraction, death return, and death-drop recovery are working.
-- The Raid-to-main-world control regression is resolved.
-- Host and remote-client entry and return at the Gas-station Shop passed multiplayer testing; NPC, loot, extraction, and death flows remained normal after round trips.
-- M1911 held-position drift, left/right flipping, high-rate dry-fire repetition, and custom gunshot playback have completed their relevant tests.
-- Sterile Bandages restore health normally, and medical-item use is no longer interrupted abnormally.
+- Raid entry, moving between areas, extraction, death return, and recovery of dropped items work normally.
+- The problem that could stop movement or menu access after returning from a Raid is fixed.
+- Multiplayer travel to and from the Gas-station Shop has been tested; enemies, loot, extraction, and death flows remain normal after the trip.
+- M1911 held-position drift, left/right flipping, overly fast dry-fire repetition, and custom gunshot playback have completed their relevant checks.
+- Sterile Bandages restore health normally, and medical-item use is no longer interrupted unexpectedly.
 
-See [[en/30 - Release/Resolved Issues|Resolved Issues]] for confirmed fixes.
+See [[en/30 - Release/Resolved Issues|Resolved Issues]] for the detailed fix history.
 
-## No current known issues
+## No problems seen recently
 
 - The player hideout works normally.
 - Ammo and magazine counts display correctly.
-- Text display and switching between Traditional and Simplified Chinese have no known issues.
+- In-game Traditional and Simplified Chinese switching works normally.
 
 Related: [[en/00 - Project/Progress|Current Progress]] · [[en/30 - Release/Resolved Issues|Resolved Issues]] · [[en/00 - Project/Updates|Update Log]]
