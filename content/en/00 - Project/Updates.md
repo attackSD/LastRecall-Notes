@@ -17,6 +17,7 @@ This page organises project progress by date; updates from the same day are comb
 - M1911, AK-47, and MP5 show that the shared ordinary-firearm flow works across a pistol, an assault rifle, and an SMG. New ordinary firearms can now focus on their own content, art, tuning, and feel instead of rebuilding the basic flow each time.
 - AK-47 and MP5 are still placeholders; their final appearance, held positions, audio, and attachment alignment are not decided yet.
 - Next steps include more firearm content and special weapon behaviours that need different operation, such as shotguns, pump actions, or tube magazines.
+- The shared normal-firearm proof is now considered a stable milestone. The main focus is shifting from validating the foundation to building and testing a playable Desert Wasteland Raid slice; firearm work can continue later as content-level polish.
 
 ## 2026-08-10 — Gun combat feedback continues
 
