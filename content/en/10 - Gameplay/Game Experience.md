@@ -7,30 +7,44 @@ tags:
 
 # LastRecall Game Experience
 
-A Raid follows a straightforward loop:
+LastRecall aims to give each Raid a rhythm rather than filling every moment with combat. Preparation before leaving, quiet exploration, sudden danger, hesitation after finding loot, and the relief of extraction should all shape a single run.
 
-1. **Prepare at Base:** Choose the equipment to take out. Backpack items left behind are kept temporarily.
-2. **Go to Desert Wasteland:** Use the teleporter to depart.
-3. **Explore and loot:** Search boxes, face enemies, and visit the Gas-station Shop.
-4. **Choose when to extract:** Bringing supplies home is more important than pushing too far.
-5. **Return to Base:** Recover temporarily retained belongings from your recovery container, sort the haul, and prepare for the next trip.
+## Pressure before departure
 
-## What can be played now
+Choosing equipment is not just routine. Better weapons and supplies may make the next trip safer, but they also make that trip matter more. Players do not need to take everything with them; they decide what this Raid truly needs.
 
-- Desert Wasteland, the Gas-station Shop, moving between areas, extraction, death return, and recovery of dropped items are in place.
-- Loot Boxes reveal their contents gradually, while enemies create pressure during exploration.
-- Health does not naturally regenerate during a Raid, and medical items take time to apply. Sterile Bandages, Field Dressings, Compact Medkits, and early food and drink supplies are available now.
-- Near the wasteland entrance, the current early version provides basic emergency supplies so a forgotten loadout does not end an outing immediately.
-- Eligible Raid goods can be sold to the Recovery Broker for Terra Coin, which can be spent on available firearms, ammunition, and attachments. Supplies and prices still need balancing.
+## Quiet does not mean empty
 
-## Gun combat feel
+A Raid should not be a nonstop enemy fight. Crossing the wasteland, listening for danger, stepping into a building, searching a container, and deciding whether to enter the next space are all part of exploration. Quiet gives players time to observe and wonder, and makes later gunfire matter more.
 
-M1911 firing, hit feedback, and finishing-shot feedback are becoming one clear combat experience. Players can see blood and a brief reaction on hits, hear a flesh-hit sound, and see muzzle flash and smoke. When firing close to a wall, the bullet and muzzle effects remain on the correct side of the wall. Multiplayer testing confirmed that both players see muzzle effects correctly, while dry fire produces no flash or smoke. Dry-fire audio, open-area versus indoor gunshots, and finishing-shot feedback are also easy to recognise in normal play.
+## Combat should be short and clear
 
-## Still needs polish
+Combat is intended to be sudden, dangerous, and easy to read. Muzzle flash, hit reactions, sounds, and kill feedback should tell players whether they fired, hit, brought an enemy down, ran empty, or need cover immediately.
 
-- Desert Wasteland is still in an early map and content-building phase.
-- Enemy strength, Loot Box contents, and trading prices still need adjustment.
-- Held poses, audio mixing, gunshot sounds for underground areas and tunnels, attachments, and the wider firearm lineup will continue to expand.
+LastRecall values Terraria's readability and fun over turning every fight into a strict military simulation.
 
-Related: [[en/00 - Project/Progress|Current Progress]] · [[en/20 - Content/Content Direction|Content Direction]]
+## Greed after looting
+
+Finding something valuable should change a player's priorities. Someone who only wanted to see more of the map may start thinking, "Should I extract now?" Someone who was willing to take risks may grow careful once their bag holds a real reward. That shift is at the heart of looting and extraction.
+
+## One more place?
+
+Going further may mean more loot, another encounter, or a better route. It may also mean spending more time and supplies. LastRecall does not want every choice to have one mathematical answer; players should judge from their loot, injuries, and the situation in front of them.
+
+## Extraction
+
+Extraction is not just an end button. It is the decision to bring a run's gains back to Base before the risk gets out of control. The relief of leaving safely should contrast with the tension built along the way.
+
+## Back at Base
+
+Back at Base, tension turns into sorting and planning: recovering retained belongings, organizing loot, trading, and deciding what to bring next time. The ideal rhythm is pressure from the expedition, safety, sorting the rewards, then wanting to head out again.
+
+## The multiplayer experience
+
+Multiplayer Raids are not only about adding more people. Players can move together, check different spaces, cover one another, and decide whether to keep exploring or extract. Seeing a teammate fight can make a quiet search feel shared and uncertain in a new way.
+
+## Questions still being explored
+
+The Desert Wasteland is currently using a simple early layout to test a complete session. The ideal Raid length, map scale, enemy and loot density, combat distance, balance between quiet and danger, and extraction distance will all keep being adjusted through actual play.
+
+For the current Raid rules and content, see [[en/10 - Gameplay/Raid Gameplay|Raid Gameplay]]. For the current feature status, see [[en/00 - Project/Progress|Current Progress]].

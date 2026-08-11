@@ -12,9 +12,10 @@ LastRecall is a Terraria mod centred on preparation, looting, and extraction. Th
 
 | What would you like to know?                           | Read this page                                             |
 | ------------------------------------------------------ | ---------------------------------------------------------- |
-| What LastRecall is and what the team is building now   | [[en/00 - Project/Overview \| Project Overview]]           |
+| What LastRecall is and why its core loop matters       | [[en/00 - Project/Overview \| Project Overview]]           |
+| The rules and flow of a Raid                           | [[en/10 - Gameplay/Raid Gameplay \| Raid Gameplay]]        |
+| What a Raid is meant to feel like                      | [[en/10 - Gameplay/Game Experience \| Game Experience]]    |
 | Which features work and which are still in development | [[en/00 - Project/Progress \| Current Progress]]           |
-| How a raid plays out                                   | [[en/10 - Gameplay/Game Experience \| Game Experience]]    |
 | The direction for weapons, items, and art assets       | [[en/20 - Content/Content Direction \| Content Direction]] |
 | Feature ideas that are not scheduled yet               | [[en/20 - Content/Future Ideas \| Future Ideas]]           |
 | Current issues that still need work                    | [[en/30 - Release/Known Issues \| Known Issues]]           |
