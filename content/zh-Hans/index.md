@@ -18,8 +18,8 @@ LastRecall 是一个以准备、搜刮与撤离为核心的 Terraria 模组。�
 | 枪械、物品与美术资源的方向              | [[zh-Hans/20 - Content/Content Direction\|内容方向]] |
 | 尚未排期的功能构想                      | [[zh-Hans/20 - Content/Future Ideas\|未来想法]]      |
 | 当前仍需处理的问题                      | [[zh-Hans/30 - Release/Known Issues\|已知问题]]      |
-| 已确认修复的问题                        | [[zh-Hans/30 - Release/Resolved Issues\|已修复问题]] |
-| 按日期整理的项目更新                    | [[zh-Hans/00 - Project/Updates\|更新记录]]           |
+| 曾遇到哪些问题、哪些已经修好            | [[zh-Hans/30 - Release/Resolved Issues\|已修复问题]] |
+| 最近新增了什么、方向有什么变化          | [[zh-Hans/00 - Project/Updates\|更新记录]]           |
 
 > [!info] 状态图标
 > ✅ 正常运行　🛠 正在调整　🔍 需要测试　🔵 尚未开始　🔴 已知问题

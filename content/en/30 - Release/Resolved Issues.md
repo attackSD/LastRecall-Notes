@@ -9,6 +9,12 @@ tags:
 
 This page records only issues confirmed as fixed while playing. Items that still need checking remain in [[en/30 - Release/Known Issues|Known Issues]]. Fixes from the same day are combined, while each issue remains easy to find.
 
+## 2026-08-10 — Gun combat feedback fix
+
+- **Shots could appear through nearby walls**: When firing very close to a wall, the shot or muzzle effect could appear on the other side. Shots are now blocked normally by walls.
+
+**Status:** ✅ Confirmed fixed in play.
+
 ## 2026-08-08 — Raid return, death recovery, multiplayer, and M1911 fixes
 
 - **Raid-return controls**: The issue that could leave players unable to move or open menus after returning to the main world is fixed and confirmed in multiplayer play.
@@ -17,7 +23,6 @@ This page records only issues confirmed as fixed while playing. Items that still
 - **Gas-station Shop multiplayer travel**: Players can travel both ways in multiplayer; enemies, loot, extraction, and death flows remain normal after the trip.
 - **M1911 held display**: Severe held-position drift and left/right flipping are fixed. The held pose may still receive later art polish.
 - **Dry-fire audio repetition**: Holding fire with an empty magazine no longer plays dry-fire audio at an abnormally high rate.
-- **M1911 custom gunshot confirmation**: Actual gameplay confirmed that normal fire uses the current M1911 custom gunshot; later work focuses on mixing and listening polish.
 - **Raid area travel**: The issue that could occur while repeatedly entering, leaving, or moving between Raid areas is fixed and confirmed in multiplayer play.
 
 **Status:** ✅ All items above are confirmed fixed in play.
@@ -28,13 +33,13 @@ This page records only issues confirmed as fixed while playing. Items that still
 
 **Status:** ✅ Confirmed fixed.
 
-## 2026-08-05 — Fixes confirmed in multiplayer testing
+## 2026-08-05 — Fixes confirmed in multiplayer play
 
 - **Multiplayer reloading and ammo consumption**: Players can reload normally in multiplayer, and ammo is consumed correctly.
 - **Extraction-point and Gas-station Shop portal generation**: Both now generate normally in multiplayer.
 - **Extraction countdown**: The countdown now displays normally.
 - **Gas-station Shop entry countdown and return location**: Entry and exit countdowns work, and the return-location error is fixed.
-- **Players getting stuck when leaving the shop**: Players can complete the exit flow normally.
+- **Some players getting stuck when leaving the shop**: Fixed an issue that could stop some players from completing the exit from the Gas-station Shop in multiplayer.
 - **Incorrect Gas-station return, lost input, and item loss**: Direct main-world returns, lost controls, lost carried items, and the extra main-world transition are fixed.
 - **Repeated entry refreshing Gas-station Shop loot**: Fixed.
 - **Multiplayer respawning after death**: The final-second respawn stall is fixed.

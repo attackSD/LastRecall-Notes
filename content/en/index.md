@@ -18,8 +18,8 @@ LastRecall is a Terraria mod centred on preparation, looting, and extraction. Th
 | The direction for weapons, items, and art assets       | [[en/20 - Content/Content Direction \| Content Direction]] |
 | Feature ideas that are not scheduled yet               | [[en/20 - Content/Future Ideas \| Future Ideas]]           |
 | Current issues that still need work                    | [[en/30 - Release/Known Issues \| Known Issues]]           |
-| Issues confirmed as fixed                              | [[en/30 - Release/Resolved Issues \| Resolved Issues]]     |
-| Dated project updates and completed work               | [[en/00 - Project/Updates \| Update Log]]                  |
+| Problems we have fixed                                 | [[en/30 - Release/Resolved Issues \| Resolved Issues]]     |
+| Recent additions and changes in direction              | [[en/00 - Project/Updates \| Update Log]]                  |
 
 > [!info] Status icons
 > ✅ Working normally　🛠 Being adjusted　🔍 Needs testing　🔵 Not started　🔴 Known issue

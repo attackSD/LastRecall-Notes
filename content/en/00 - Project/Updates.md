@@ -21,9 +21,8 @@ This page organises project progress by date; updates from the same day are comb
 
 ## 2026-08-10 — Gun combat feedback continues
 
-- M1911 hits now have clearer blood and visual reactions, with flesh-impact audio added; shots hitting enemies and shots hitting walls are clearly distinguished.
-- Fixed a close-wall firing issue that could place a bullet beyond the wall; bullets are now blocked normally by walls.
-- Added and tuned muzzle flash, sparks, smoke, and a brief lighting effect to make the firing-to-hit feedback loop clearer.
+- M1911 hit reactions, impact sounds, and muzzle effects continued to improve, making each shot feel clearer from firing to impact.
+- Improved close-wall firing so shots are blocked normally by walls.
 - We are still checking whether other players consistently see muzzle flash and smoke in multiplayer; the two-player check is not complete yet.
 - Refined the M1911 dry-fire sound to be shorter and clearer; we will keep checking whether it is easy to recognise in multiplayer.
 - Added an initial finishing-shot effect so the final shot looks clearer than an ordinary hit; we still need to see whether players naturally notice it during normal combat.
@@ -37,18 +36,11 @@ This page organises project progress by date; updates from the same day are comb
 
 ## 2026-08-08 — Raid, Gas-station Shop, and M1911 update
 
-**Completed or confirmed:**
+- Completed a multiplayer stability pass for Raid returns, death-drop recovery, Gas-station Shop travel, and moving between Raid areas.
+- Improved M1911 held display and dry-fire audio; the current M1911 gunshot is also working in game.
+- M1911 held-pose art and audio mixing, as well as the firearm lineup, loot, and trading, will continue to be refined.
 
-- Players can travel both ways between the open wasteland and Gas-station Shop in multiplayer. Existing enemy and loot states remain normal after travel, along with normal extraction and Raid death/return flows.
-- The problem where a player could not move or open the menu after returning from a Raid is resolved and confirmed in multiplayer play.
-- Raid death drops return correctly after re-entering the wasteland. After all drops are recovered, extracting, and starting a new Raid, the old drops do not appear again.
-- The problem that could affect a replacement background Raid area is fixed and confirmed in multiplayer play.
-- Severe M1911 held-position drift and left/right flipping are fixed; custom M1911 gunshot audio was confirmed to play in actual gameplay.
-- Dry-fire audio no longer repeats at an abnormally high rate and now follows the normal weapon-use cadence.
-
-**Still to complete:**
-
-- M1911 held-pose art, gunshot mixing, the firearm lineup, loot, and prices remain in refinement.
+See [[en/30 - Release/Resolved Issues|Resolved Issues]] for each fix.
 
 ## 2026-08-07 — Crosshair system and firearm production continue
 
@@ -64,30 +56,10 @@ This page organises project progress by date; updates from the same day are comb
 
 ## 2026-08-05 — Multiplayer play and map entry
 
-**Completed or confirmed:**
-
-- Added a loading screen for map entry and enabled PvP automatically in Raid worlds. PvP status-message spam at server start and map entry was fixed.
-- In-game Traditional Chinese and Simplified Chinese switching is complete.
-- Players on different teams can enter a Raid; teammates no longer damage one another and can see teammate names.
-- Players can reload normally and ammunition is consumed correctly. Party preparation and departure, chest searching, and the current item/supply flow were confirmed working.
-- Players can enter the map successfully; the earlier disappearing-map issue did not recur in recent testing.
-- Multiplayer extraction points and countdowns, the Gas-station Shop portal, and countdowns when entering and leaving the Gas-station Shop are working normally.
-- Incorrect returns to the main world, lost input, item loss after re-entry, and players getting stuck while returning were fixed. Repeated travel no longer refreshes the Gas-station Shop's internal loot.
-- The extra main-world transition when returning from the Gas-station Shop, and the issue where its internal loot did not refresh as intended, were fixed.
-- Sterile Bandage failing to heal, medical-item interruption, and enemy patrols getting stuck on high ground or vehicles were fixed.
-- Multiplayer death respawn, death drops returning to the player, normal monsters appearing in Raid worlds, enemy shots failing to hit players, missing post-death loot boxes, duplicated reward boxes, and fragmented reward-box textures were all confirmed fixed.
-- Enemies failing to turn after being attacked from behind, and the Recovery Broker being unable to buy modded items brought back from a Raid, were fixed.
-
-**Found during this round / follow-up work:**
-
-- Keeping the currency visible as `Terra Coin: amount` during trades remains a planned improvement.
-- Enemy bullet behaviour still needed to be aligned with player bullets at this point.
-
-**Continued checking:**
-
-- Multiplayer behaviour of the map-entry loading screen.
-
-For live status, see [[en/30 - Release/Known Issues|Known Issues]]; confirmed fixes are listed in [[en/30 - Release/Resolved Issues|Resolved Issues]].
+- Completed a multiplayer Raid-flow improvement pass covering map entry, team play, reloading, looting, extraction, and returning after death.
+- Travel to and from the Gas-station Shop became more reliable, while loading screens and countdowns make map changes easier to follow.
+- Healing, enemies, Reward Loot Boxes, and the merchant all improved in the same round. In-game Traditional/Simplified Chinese switching was also completed.
+- Many different player-facing problems were found and fixed during this work; see [[en/30 - Release/Resolved Issues|Resolved Issues]] for the detailed list.
 
 ## 2026-08-04 — Project notes and direction organised
 
