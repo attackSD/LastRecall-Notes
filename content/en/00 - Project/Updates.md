@@ -9,6 +9,11 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-12 — Raid map reliability and content work
+
+- Fixed an issue that could prevent Raid maps from loading correctly in some situations, improving their reliability in both development and packaged versions. Desert Wasteland, the Gas-station Shop, travelling between areas, and extraction have all been confirmed to work normally.
+- The basic Raid flow is now ready to support hands-on content work. Development is shifting toward the Desert Wasteland's simple early layout: indoor and outdoor routes, combat spaces, exploration, loot, enemy locations, travel between areas, and extraction flow. Final art and the full content are still in development.
+
 ## 2026-08-11 — Basic play checks for three firearms
 
 - M1911's held-pose adjustment was checked in play: left/right facing, muzzle effects, and close-wall firing all work normally.

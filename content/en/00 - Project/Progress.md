@@ -9,14 +9,14 @@ tags:
 
 ## Current focus
 
-**Desert Wasteland** is the main Raid map. A simple early layout is being used to test whether a complete outing feels good: prepare at Base, depart, explore, fight, loot, extract, and return to Base.
+**Desert Wasteland** is the main Raid map. The basic Raid flow is now ready to support hands-on content work, so a simple early layout is being used to test whether a complete outing feels good: prepare at Base, depart, explore, fight, loot, extract, and return to Base.
 
 ## Feature overview
 
 | Status | Area                     | Current state                                                                                                                                                                                                                                                                                            |
 | ------ | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ✅     | Base and departure       | The hideout, party preparation, and departure work normally. The map-selection screen and teleporter material still need polish.                                                                                                                                                                         |
-| ✅     | Raid map and travel      | Desert Wasteland and the Gas-station Shop can be entered and left; travelling between them and returning also works in multiplayer.                                                                                                                                                                      |
+| ✅     | Raid map and travel      | Improved an issue that could prevent Raid maps from loading correctly in some situations. Desert Wasteland, the Gas-station Shop, and travelling, returning, and extracting between areas now work normally.                                                                                             |
 | ✅     | Extraction and death     | Extraction points, countdowns, respawning, death-drop recovery, and returning to Base work normally.                                                                                                                                                                                                     |
 | ✅     | Multiplayer and teams    | Different teams can enter a Raid together. Teammates do not damage each other and can see teammate names.                                                                                                                                                                                                |
 | ✅     | Enemies                  | Basic encounters, awareness, ranged attacks, and enemy drops are in place. Enemy strength, numbers, and encounter density still need to match the rhythm of a Raid.                                                                                                                                      |
