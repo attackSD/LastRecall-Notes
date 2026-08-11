@@ -7,20 +7,20 @@ tags:
 
 # LastRecall Resolved Issues
 
-This page records only issues confirmed as fixed in actual play; items awaiting verification remain in [[en/30 - Release/Known Issues|Known Issues and Testing]]. Fixes from the same day are combined, while each issue remains individually searchable.
+This page records only issues confirmed as fixed while playing. Items that still need checking remain in [[en/30 - Release/Known Issues|Known Issues]]. Fixes from the same day are combined, while each issue remains easy to find.
 
 ## 2026-08-08 — Raid return, death recovery, multiplayer, and M1911 fixes
 
 - **Raid-return controls**: The issue that could leave players unable to move or open menus after returning to the main world is fixed and confirmed in multiplayer play.
-- **Raid death recovery**: Death drops return correctly after re-entering the Exterior, confirmed in actual testing.
-- **Duplicate recovery drops**: After all drops are recovered, extracting and opening a new Raid no longer recreates the old drops; this was confirmed in actual play.
-- **Gas-station Shop multiplayer travel**: Multiplayer round trips passed testing; enemies, loot, extraction, and death flows remained normal after travel.
+- **Raid death recovery**: Death drops return correctly after re-entering the wasteland.
+- **Duplicate recovery drops**: After all drops are recovered, extracting and opening a new Raid no longer recreates the old drops.
+- **Gas-station Shop multiplayer travel**: Players can travel both ways in multiplayer; enemies, loot, extraction, and death flows remain normal after the trip.
 - **M1911 held display**: Severe held-position drift and left/right flipping are fixed. The held pose may still receive later art polish.
 - **Dry-fire audio repetition**: Holding fire with an empty magazine no longer plays dry-fire audio at an abnormally high rate.
 - **M1911 custom gunshot confirmation**: Actual gameplay confirmed that normal fire uses the current M1911 custom gunshot; later work focuses on mixing and listening polish.
-- **Background Raid area switching**: The problem that could occur when replacing a background Raid area is fixed and confirmed in multiplayer play.
+- **Raid area travel**: The issue that could occur while repeatedly entering, leaving, or moving between Raid areas is fixed and confirmed in multiplayer play.
 
-**Status:** ✅ All items above passed actual gameplay testing.
+**Status:** ✅ All items above are confirmed fixed in play.
 
 ## 2026-08-06 — Enemy bullet behaviour
 
@@ -56,4 +56,4 @@ This page records only issues confirmed as fixed in actual play; items awaiting 
 
 - Created public progress, update, known-issue, and resolved-issue pages and organised project direction and unscheduled ideas.
 
-Related: [[en/30 - Release/Known Issues|Known Issues and Testing]] · [[en/00 - Project/Updates|Update Log]]
+Related: [[en/30 - Release/Known Issues|Known Issues]] · [[en/00 - Project/Updates|Update Log]]

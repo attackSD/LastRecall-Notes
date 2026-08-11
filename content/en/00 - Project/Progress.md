@@ -13,24 +13,24 @@ tags:
 
 ## Feature overview
 
-| Status | Area | Current state |
-| ---- | ---- | ---- |
-| ✅ | Base and departure | The hideout, party preparation, and departure work normally. The map-selection screen and teleporter material still need polish. |
-| ✅ | Raid map and travel | Desert Wasteland and the Gas-station Shop can be entered and left; map loading and return flows have passed multiplayer testing. |
-| ✅ | Extraction and death | Extraction points, countdowns, respawning, death-drop recovery, and returning to Base work normally. Old drops do not appear again after recovery. |
-| ✅ | Multiplayer and teams | Different teams can enter a Raid together. Teammates do not damage each other and can see teammate names. |
-| ✅ | Enemies | Basic encounters, awareness, ranged attacks, and enemy drops are in place. Patrol and turning problems are fixed; enemy strength still needs balancing. |
-| 🛠 | Loot and supplies | Loot Boxes can be searched and reveal items gradually. Search sounds, box contents, and reward balance still need work. |
-| 🛠 | Trading and information | The merchant can buy mod items brought back from a Raid. Prices, stock, and an always-visible currency total still need improvement. |
-| 🛠 | Firearms and combat feel | M1911, temporary-art AK-47, and temporary-art MP5 all support the basic shooting flow. Hit visuals, flesh-hit audio, muzzle flash and smoke, close-wall firing, and an initial lethal-hit effect are in place; multiplayer muzzle visibility, lethal-hit readability, audio, attachments, final art, and balance still need work. |
-| ✅ | Healing and language | Sterile Bandage and medical-use problems are fixed; in-game Traditional/Simplified Chinese switching is complete. |
-| 🛠 | Loadout storage | Items left behind are temporarily stored in Base storage; the final way to keep them is still being planned. |
+| Status | Area                     | Current state                                                                                                                                                                                                                                                                                                                                                       |
+| ------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅     | Base and departure       | The hideout, party preparation, and departure work normally. The map-selection screen and teleporter material still need polish.                                                                                                                                                                                                                                    |
+| ✅     | Raid map and travel      | Desert Wasteland and the Gas-station Shop can be entered and left; travelling between them and returning also works in multiplayer.                                                                                                                                                                                                                                 |
+| ✅     | Extraction and death     | Extraction points, countdowns, respawning, death-drop recovery, and returning to Base work normally. Old drops do not appear again after recovery.                                                                                                                                                                                                                  |
+| ✅     | Multiplayer and teams    | Different teams can enter a Raid together. Teammates do not damage each other and can see teammate names.                                                                                                                                                                                                                                                           |
+| ✅     | Enemies                  | Basic encounters, awareness, ranged attacks, and enemy drops are in place. Patrol and turning problems are fixed; enemy strength still needs balancing.                                                                                                                                                                                                             |
+| 🛠     | Loot and supplies        | Loot Boxes can be searched and reveal items gradually. Search sounds, box contents, and reward balance still need work.                                                                                                                                                                                                                                             |
+| 🛠     | Trading and information  | The merchant can buy mod items brought back from a Raid. Prices, stock, and an always-visible currency total still need improvement.                                                                                                                                                                                                                                |
+| 🛠     | Firearms and combat feel | M1911, plus AK-47 and MP5 with temporary artwork, can all fire and reload normally. Hit reactions, impact sounds, muzzle flash and smoke, close-wall firing, and an initial finishing-shot effect are in place; what other players see in multiplayer, how easy the finishing-shot effect is to notice, audio, attachments, final art, and balance still need work. |
+| ✅     | Healing and language     | Sterile Bandage and medical-use problems are fixed; in-game Traditional/Simplified Chinese switching is complete.                                                                                                                                                                                                                                                   |
+| 🛠     | Loadout storage          | Items left behind are temporarily stored in Base storage; the final way to keep them is still being planned.                                                                                                                                                                                                                                                        |
 
 ## Current priorities
 
 1. Use a simple Desert Wasteland layout to test the full Raid flow, including spawn areas, open and indoor combat spaces, loot and enemy positions, and extraction routes.
 2. Tune map size, travel distance, exploration rhythm, combat spacing, risk, and reward so one Raid feels complete.
-3. Continue firearm art, audio, attachments, balance, multiplayer muzzle-effect checks, and lethal-hit readability work without making them the main focus.
+3. Alongside map work, continue firearm art, audio, attachments, and balance, and check whether multiplayer muzzle effects and finishing-shot feedback are clear to players.
 
 ## Next directions
 
@@ -40,4 +40,4 @@ tags:
 
 For unplanned ideas, see [[en/20 - Content/Future Ideas|Future Ideas]].
 
-For known issues and testing notes, see [[en/30 - Release/Known Issues|Known Issues and Testing]].
+For current issues, see [[en/30 - Release/Known Issues|Known Issues]].

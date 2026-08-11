@@ -10,16 +10,16 @@ LastRecall 是一个以准备、搜刮与撤离为核心的 Terraria 模组。�
 
 ## 从这里开始
 
-| 你想了解什么？                          | 查看页面                                              |
-| --------------------------------------- | ----------------------------------------------------- |
-| LastRecall 是什么，以及团队正在制作什么 | [[zh-Hans/00 - Project/Overview\|项目概览]]           |
-| 哪些功能可用，哪些仍在开发              | [[zh-Hans/00 - Project/Progress\|当前进度]]           |
-| 一次 Raid 如何进行                      | [[zh-Hans/10 - Gameplay/Game Experience\|游戏体验]]   |
-| 枪械、物品与美术资源的方向              | [[zh-Hans/20 - Content/Content Direction\|内容方向]]  |
-| 尚未排期的功能构想                      | [[zh-Hans/20 - Content/Future Ideas\|未来想法]]       |
-| 当前已知问题与测试项目                  | [[zh-Hans/30 - Release/Known Issues\|已知问题与测试]] |
-| 已确认修复的问题                        | [[zh-Hans/30 - Release/Resolved Issues\|已修复问题]]  |
-| 按日期整理的项目更新                    | [[zh-Hans/00 - Project/Updates\|更新记录]]            |
+| 你想了解什么？                          | 查看页面                                             |
+| --------------------------------------- | ---------------------------------------------------- |
+| LastRecall 是什么，以及团队正在制作什么 | [[zh-Hans/00 - Project/Overview\|项目概览]]          |
+| 哪些功能可用，哪些仍在开发              | [[zh-Hans/00 - Project/Progress\|当前进度]]          |
+| 一次 Raid 如何进行                      | [[zh-Hans/10 - Gameplay/Game Experience\|游戏体验]]  |
+| 枪械、物品与美术资源的方向              | [[zh-Hans/20 - Content/Content Direction\|内容方向]] |
+| 尚未排期的功能构想                      | [[zh-Hans/20 - Content/Future Ideas\|未来想法]]      |
+| 当前仍需处理的问题                      | [[zh-Hans/30 - Release/Known Issues\|已知问题]]      |
+| 已确认修复的问题                        | [[zh-Hans/30 - Release/Resolved Issues\|已修复问题]] |
+| 按日期整理的项目更新                    | [[zh-Hans/00 - Project/Updates\|更新记录]]           |
 
 > [!info] 状态图标
 > ✅ 正常运行　🛠 正在调整　🔍 需要测试　🔵 尚未开始　🔴 已知问题

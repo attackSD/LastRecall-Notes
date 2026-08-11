@@ -9,24 +9,24 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
-## 2026-08-11 — Shared firearm foundation and new-weapon verification
+## 2026-08-11 — Basic play checks for three firearms
 
-- M1911's shared held pose adjustment passed actual in-game verification; facing direction, muzzle effects, and close-wall firing now behave correctly.
-- Added an AK-47 using temporary artwork and verified automatic fire, reloading, hit and muzzle effects, and close-wall firing in-game.
-- Added an MP5 using temporary artwork and verified the same basic flow, including its 30-round magazine and reloading.
-- M1911, AK-47, and MP5 show that the shared ordinary-firearm flow works across a pistol, an assault rifle, and an SMG. New ordinary firearms can now focus on their own content, art, tuning, and feel instead of rebuilding the basic flow each time.
+- M1911's held-pose adjustment was checked in play: left/right facing, muzzle effects, and close-wall firing all work normally.
+- Added an AK-47 with temporary artwork. Automatic fire, reloading, hits, and close-wall firing all work normally.
+- Added an MP5 with temporary artwork. Its automatic fire, 30-round magazine, reloading, hits, and close-wall firing also work normally.
+- M1911, AK-47, and MP5 show that handguns, rifles, and SMGs can all use the current basic controls. Future ordinary firearms can focus on their own art, sounds, balance, and feel.
 - AK-47 and MP5 still use temporary artwork; their final appearance, held positions, audio, and attachment alignment are not decided yet.
-- Special weapon behaviours that need different operations, such as shotguns, pump actions, or tube magazines, remain future work.
-- The basic firearm flow is now a stable milestone. The main focus is shifting to building and testing a complete Desert Wasteland Raid experience; firearm work can continue later as art, sound, balance, and attachment polish.
+- Firearms with different handling, such as shotguns, pump actions, and tube magazines, remain future work.
+- Basic firearm controls are stable for now. The main focus is shifting to building and playing through a complete Desert Wasteland Raid; firearm art, sound, balance, and attachments will continue to be polished later.
 
 ## 2026-08-10 — Gun combat feedback continues
 
 - M1911 hits now have clearer blood and visual reactions, with flesh-impact audio added; shots hitting enemies and shots hitting walls are clearly distinguished.
 - Fixed a close-wall firing issue that could place a bullet beyond the wall; bullets are now blocked normally by walls.
 - Added and tuned muzzle flash, sparks, smoke, and a brief lighting effect to make the firing-to-hit feedback loop clearer.
-- We are checking whether other players consistently see muzzle flash and smoke in multiplayer; the two-player check is not complete yet.
-- Refined the M1911 dry-fire sound to be shorter and clearer; multiplayer testing will still check how easily it can be recognised.
-- Added an initial lethal-hit effect so the final shot has a clearer visual difference from an ordinary hit; player readability during normal combat still needs observation.
+- We are still checking whether other players consistently see muzzle flash and smoke in multiplayer; the two-player check is not complete yet.
+- Refined the M1911 dry-fire sound to be shorter and clearer; we will keep checking whether it is easy to recognise in multiplayer.
+- Added an initial finishing-shot effect so the final shot looks clearer than an ordinary hit; we still need to see whether players naturally notice it during normal combat.
 
 ## 2026-08-09 — Gun combat feel and hit feedback
 
@@ -39,9 +39,9 @@ This page organises project progress by date; updates from the same day are comb
 
 **Completed or confirmed:**
 
-- Multiplayer trips between the open wasteland and Gas-station Shop passed testing. Existing enemy and loot states remained normal after travel, and normal extraction plus Raid death/return flows also remained normal.
+- Players can travel both ways between the open wasteland and Gas-station Shop in multiplayer. Existing enemy and loot states remain normal after travel, along with normal extraction and Raid death/return flows.
 - The problem where a player could not move or open the menu after returning from a Raid is resolved and confirmed in multiplayer play.
-- Raid death drops return correctly after re-entering the Exterior. After all drops are recovered, extracting, and starting a new Raid, the old drops do not appear again.
+- Raid death drops return correctly after re-entering the wasteland. After all drops are recovered, extracting, and starting a new Raid, the old drops do not appear again.
 - The problem that could affect a replacement background Raid area is fixed and confirmed in multiplayer play.
 - Severe M1911 held-position drift and left/right flipping are fixed; custom M1911 gunshot audio was confirmed to play in actual gameplay.
 - Dry-fire audio no longer repeats at an abnormally high rate and now follows the normal weapon-use cadence.
@@ -62,7 +62,7 @@ This page organises project progress by date; updates from the same day are comb
 - The modification system is now available. M1911, Pistol Ammo, a suppressor, and an extended magazine were added; attachments affect weapon appearance and some performance.
 - Gunshot audio work added dry-fire, suppressed-shot, and mechanical feedback. Different gunshot sounds for open areas, interiors, underground spaces, and tunnels remain planned; recoil settings are also being introduced for firearms and attachments, while sound feel and balance continue to be tuned.
 
-## 2026-08-05 — Multiplayer testing and map-entry flow
+## 2026-08-05 — Multiplayer play and map entry
 
 **Completed or confirmed:**
 
@@ -87,7 +87,7 @@ This page organises project progress by date; updates from the same day are comb
 
 - Multiplayer behaviour of the map-entry loading screen.
 
-For live status, see [[en/30 - Release/Known Issues|Known Issues and Testing]]; confirmed fixes are listed in [[en/30 - Release/Resolved Issues|Resolved Issues]].
+For live status, see [[en/30 - Release/Known Issues|Known Issues]]; confirmed fixes are listed in [[en/30 - Release/Resolved Issues|Resolved Issues]].
 
 ## 2026-08-04 — Project notes and direction organised
 
