@@ -9,6 +9,15 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-11 — Shared firearm foundation and new-weapon verification
+
+- M1911's shared held pose adjustment passed actual in-game verification; facing direction, muzzle effects, and close-wall firing now behave correctly.
+- Added an AK-47 placeholder and verified automatic fire, reloading, hit and muzzle effects, and close-wall firing in-game.
+- Added an MP5 placeholder and verified the same basic flow, including its 30-round magazine and reloading.
+- M1911, AK-47, and MP5 show that the shared ordinary-firearm flow works across a pistol, an assault rifle, and an SMG. New ordinary firearms can now focus on their own content, art, tuning, and feel instead of rebuilding the basic flow each time.
+- AK-47 and MP5 are still placeholders; their final appearance, held positions, audio, and attachment alignment are not decided yet.
+- Next steps include more firearm content and special weapon behaviours that need different operation, such as shotguns, pump actions, or tube magazines.
+
 ## 2026-08-10 — Gun combat feedback continues
 
 - M1911 hits now have clearer blood and visual reactions, with flesh-impact audio added; shots hitting enemies and shots hitting walls are clearly distinguished.
