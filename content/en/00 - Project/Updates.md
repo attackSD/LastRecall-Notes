@@ -18,6 +18,8 @@ This page organises project progress by date; updates from the same day are comb
 - AK-47 and MP5 still use temporary artwork; their final appearance, held positions, audio, and attachment alignment are not decided yet.
 - Firearms with different handling, such as shotguns, pump actions, and tube magazines, remain future work.
 - Basic firearm controls are stable for now. The main focus is shifting to building and playing through a complete Desert Wasteland Raid; firearm art, sound, balance, and attachments will continue to be polished later.
+- A new two-player firearm test confirmed that both players see muzzle flash and smoke correctly, without missing or duplicate effects. Dry fire and close-wall firing also behaved normally.
+- Dry-fire audio, the difference between open-area and indoor gunshots, and finishing-shot feedback were all easy to recognise in normal play.
 
 ## 2026-08-10 — Gun combat feedback continues
 

@@ -17,19 +17,19 @@ Ordinary firearms now have a usable basic foundation. M1911 is the most develope
 
 - **Modification system:** Available; attachments change weapon appearance and some performance.
 - **M1911:** The most developed firearm. Pose art, mixing, attachments, and balance still need polish.
-- **Combat feedback:** Hits and finishing shots now have clearer visual and audio feedback. We still need to check what other players see in multiplayer and how easy finishing shots are to notice.
-- **Different spaces:** Open areas and indoor spaces already have usable sound differences. Underground areas and tunnels are still being made.
+- **Combat feedback:** Hits and finishing shots now have clearer visual and audio feedback. Multiplayer play confirmed normal muzzle effects, dry fire, and close-wall firing, and finishing shots are easy to recognise.
+- **Different spaces:** The difference between open areas and indoor spaces is easy to notice. Underground areas and tunnels are still being made.
 - **Recoil and crosshairs:** Basic features are present, but numbers and balance are not finished.
 
 Shotguns, pump actions, tube magazines, bolt actions, and belt-fed weapons will be developed later.
 
 ## Items and supplies
 
-The item pool is still small and original assets will be added over time. Sterile Bandage healing and interrupted medical-item use are fixed.
+Health does not naturally regenerate during a Raid, and medical items take time to apply. The current early supplies include Sterile Bandages, Field Dressings, Compact Medkits, Canned Stew, Field Rations, Energy Bars, Purified Water, and Energy Drinks. More item variety and original assets will be added over time.
 
 ## Loot and trading
 
-Loot Boxes can be searched and reveal their contents gradually. Search sounds are still missing, and loot and merchant prices still need balancing.
+Loot Boxes can be searched and reveal their contents gradually. Search sounds are still missing, and loot and merchant prices still need balancing. Eligible Raid goods can be sold to the Recovery Broker for Terra Coin, then used to buy available firearms, ammunition, and attachments.
 
 Unscheduled ideas are collected in [[en/20 - Content/Future Ideas|Future Ideas]].
 

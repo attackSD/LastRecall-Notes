@@ -17,11 +17,7 @@ This page separates confirmed medium-term plans from directions that still need 
 ## Hideout and survival
 
 - **Hideout supply information:** Let players check the quantities of important items stored in the hideout while they are away.
-- **Medical station:** Provide a limited number of treatments while removing natural health regeneration, making supplies and treatment choices more meaningful.
-
-## Trading and economy
-
-- **Always-visible Terra Coin total:** Keep a text-only “Terra Coin: amount” display beside merchant transactions instead of using a confusing icon.
+- **Medical station:** Provide a limited number of treatments at Base. Health already does not naturally regenerate during a Raid, making medical supplies and treatment choices more meaningful.
 
 ## Firearms and equipment
 
