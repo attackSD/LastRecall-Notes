@@ -9,6 +9,14 @@ tags:
 
 This page records only issues confirmed as fixed while playing. Items that still need checking remain in [[en/30 - Release/Known Issues|Known Issues]]. Fixes from the same day are combined, while each issue remains easy to find.
 
+## 2026-08-12 — Raid map and vision fixes
+
+- **Raid maps unavailable in some situations**: In some fresh or packaged setups, Desert Wasteland or the Gas-station Shop could fail to load correctly. Raid maps are now available reliably, and the flow from Desert Wasteland to the shop, back to the desert, and then to Base has been confirmed.
+- **The first vision-mask version could prevent the mod from loading**: The initial version could cause LastRecall to become disabled while loading. The mod now loads normally, and the directional vision mask works during Raids.
+- **Character facing disagreed with viewing direction**: While holding an ordinary item in a Raid, a character could appear to face away from the area being watched. Left/right facing now follows the active viewing direction.
+
+**Status:** ✅ All items above are confirmed fixed in play.
+
 ## 2026-08-10 — Gun combat feedback fix
 
 - **Shots could appear through nearby walls**: When firing very close to a wall, the shot or muzzle effect could appear on the other side. Shots are now blocked normally by walls.

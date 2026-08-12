@@ -18,6 +18,16 @@ Before leaving, players choose the weapons, ammunition, medical items, and suppl
 
 Desert Wasteland is the current main Raid map. Players move between open wasteland, buildings, and indoor spaces; the Gas-station Shop is one indoor area that can be entered now. Different spaces change how far players can see, which distances feel safe for combat, and how gunfire sounds.
 
+## Vision, blind areas, and sound
+
+In a Raid, the viewing direction follows the mouse. The current prototype uses a 135-degree total viewing range; this is a test value, not a final setting. The area in front of the player stays clear, while areas outside it are softly darkened by a semi-transparent vision mask. Terrain, rooms, platforms, and the general shape of the map remain readable—this is not a system that completely hides the map.
+
+An enemy must be both inside the direction the player is actively watching and free of solid cover to be shown clearly. Walls, corners, and other opaque blockers can conceal an enemy, while a true small opening may still reveal what is on the other side. This makes doors, windows, cover, and gaps in sightlines worth noticing while exploring.
+
+Not seeing something does not mean having no information. Enemy footsteps can suggest nearby activity and a rough left/right direction and distance. Players can hear a blind area first, then turn to see whether there is a threat. In Raids, the character's left/right facing also follows the active viewing direction, even when holding an ordinary item, so the character does not appear to face away from the area being watched.
+
+These additional vision limits apply only in Raids. The main world keeps normal Terraria visibility.
+
 ## Exploring and looting
 
 Containers do not reveal everything instantly. Players need to stop and search, with contents appearing gradually. That time is part of the risk: while searching, a player might hear an enemy, spot another area, or start wondering whether it is safer to leave.

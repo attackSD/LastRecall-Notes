@@ -9,10 +9,14 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
-## 2026-08-12 — Raid map reliability and content work
+## 2026-08-12 — Raid vision, map reliability, and content work
 
 - Fixed an issue that could prevent Raid maps from loading correctly in some situations, improving their reliability in both development and packaged versions. Desert Wasteland, the Gas-station Shop, travelling between areas, and extraction have all been confirmed to work normally.
-- The basic Raid flow is now ready to support hands-on content work. Development is shifting toward the Desert Wasteland's simple early layout: indoor and outdoor routes, combat spaces, exploration, loot, enemy locations, travel between areas, and extraction flow. Final art and the full content are still in development.
+- Raids now have a viewing direction based on the current 135-degree prototype value, a soft directional vision mask, and real-cover checks. Enemies are only shown clearly when they are in the player's view and not hidden by a wall. These information limits apply only in Raids; the main world keeps normal visibility.
+- Enemy footsteps now give a rough sense of nearby activity, direction, and distance, allowing players to notice a blind area through sound before turning to check it. In Raids, the character also faces the active viewing direction so the presentation does not disagree with where the player is looking.
+- The vision-mask edge was softened after play feedback. The basic Raid flow is now ready to support hands-on content work, and the focus is shifting toward simple Desert Wasteland and Gas-station Shop layouts that test indoor and outdoor travel, sightlines, combat, exploration, loot, enemy placement, and extraction rhythm. Final art and the full content are still in development.
+
+See [[en/30 - Release/Resolved Issues|Resolved Issues]] for the confirmed fixes.
 
 ## 2026-08-11 — Basic play checks for three firearms
 

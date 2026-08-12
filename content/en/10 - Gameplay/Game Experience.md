@@ -17,6 +17,8 @@ Choosing equipment is not just routine. Better weapons and supplies may make the
 
 A Raid should not be a nonstop enemy fight. Crossing the wasteland, listening for danger, stepping into a building, searching a container, and deciding whether to enter the next space are all part of exploration. Quiet gives players time to observe and wonder, and makes later gunfire matter more.
 
+A quiet room is not necessarily free of information. A player may hear movement from a direction they cannot see, decide whether to turn and check it, and only then confirm a threat. Eyes give exact confirmation; ears warn about what may be in a blind area.
+
 ## Combat should be short and clear
 
 Combat is intended to be sudden, dangerous, and easy to read. Muzzle flash, hit reactions, sounds, and kill feedback should tell players whether they fired, hit, brought an enemy down, ran empty, or need cover immediately.

@@ -11,6 +11,8 @@ tags:
 
 Desert Wasteland is the main Raid map. A simple layout is being used first for spawn areas, combat spaces, loot locations, and extraction routes so map size, travel time, combat rhythm, and risk versus reward can be tuned before final art is made. The Gas-station Shop is already a usable indoor area and will continue to gain more scenery and things to explore.
 
+Doors, windows, shelves, walls, corners, cover, and gaps in sightlines will increasingly become part of map design. They affect not only where players can move, but also what they can confirm visually, what they can hear first, and whether entering the next space is worth the risk. Desert and Gas-station layouts will deliberately use those differences.
+
 ## Firearms
 
 Ordinary firearms now have a usable basic foundation. M1911 is the most developed current weapon, while AK-47 and MP5 still use temporary artwork. Future work can focus on each weapon's art, sound, attachments, balance, and feel.

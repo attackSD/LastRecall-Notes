@@ -39,6 +39,8 @@ LastRecall's firearms aim to feel clear, responsive, and weighty within Terraria
 
 Rather than simulating every real-world firearm detail, the priority is readability: players should know that they fired, whether they hit, whether an enemy went down, whether the weapon is empty, and how close the danger is.
 
+The current Raid build also limits exact hostile information through the direction a player is watching, real cover, and sound. This makes doorways, corners, and quiet rooms moments for watching, listening, and making a judgement rather than empty space.
+
 ## Multiplayer
 
 Multiplayer is an important part of LastRecall. Players can enter Raids together, explore different spaces, cover one another, and decide together when to extract. Teammates are recognizable and do not damage one another in the current team flow. Seeing or hearing a teammate's fight can add another layer of judgement to a quiet search.
