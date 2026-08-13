@@ -45,6 +45,10 @@ The current Raid build also limits exact hostile information through the directi
 
 Multiplayer is an important part of LastRecall. Players can enter Raids together, explore different spaces, cover one another, and decide together when to extract. Teammates are recognizable and do not damage one another in the current team flow. Seeing or hearing a teammate's fight can add another layer of judgement to a quiet search.
 
+On a busier server, players do not all need to be in one group. Different teams can enter the same Raid and explore or loot from different directions, instead of everyone competing for the same supplies at once. Teams may naturally meet because of their routes, important locations, valuable loot, or extraction paths; whether they avoid, compete with, fight, or choose to cooperate with each other depends on the players and the situation.
+
+This does not mean every Raid is meant to become player-versus-player combat. It allows multiplayer Raids to create different stories naturally: two teams may never meet, or they may encounter one another over loot or a route. A small group of friends can also enter as one team and complete a Raid cooperatively.
+
 ## Current development stage
 
 The Desert Wasteland is the main Raid map. Current work is focused on making an early version of a complete play session feel natural: preparation, exploration, combat, looting, extraction, and returning to Base. Map detail, art, and content will continue to grow from there.
