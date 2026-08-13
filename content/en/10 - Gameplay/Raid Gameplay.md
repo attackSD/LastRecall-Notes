@@ -22,7 +22,9 @@ Desert Wasteland is the current main Raid map. Players move between open wastela
 
 In a Raid, the viewing direction follows the mouse. The current prototype uses a 135-degree total viewing range; this is a test value, not a final setting. The area in front of the player stays clear, while areas outside it are softly darkened by a semi-transparent vision mask. Terrain, rooms, platforms, and the general shape of the map remain readable—this is not a system that completely hides the map.
 
-An enemy must be both inside the direction the player is actively watching and free of solid cover to be shown clearly. Walls, corners, and other opaque blockers can conceal an enemy, while a true small opening may still reveal what is on the other side. This makes doors, windows, cover, and gaps in sightlines worth noticing while exploring.
+Looking toward an area does not guarantee complete tactical information on its own. An enemy must be both inside the direction the player is actively watching and have a clear line of sight, without a solid structure in the way, to be shown clearly. Walls, corners, sloped roofs, and other opaque structures can conceal an enemy, while true openings, doors, and windows may still reveal what is on the other side.
+
+When a wall is in front of the player, the area behind it also carries less visual information. This makes a concealed enemy feel explained by the scene rather than as if it disappeared inside a fully bright room. The visual cue communicates the line-of-sight rule rather than replacing it; terrain, rooms, and the overall map structure are intentionally kept readable, and this is not a full fog-of-war system.
 
 Not seeing something does not mean having no information. Enemy footsteps can suggest nearby activity and a rough left/right direction and distance. Players can hear a blind area first, then turn to see whether there is a threat. In Raids, the character's left/right facing also follows the active viewing direction, even when holding an ordinary item, so the character does not appear to face away from the area being watched.
 

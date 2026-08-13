@@ -9,14 +9,16 @@ tags:
 
 This page records only issues confirmed as fixed while playing. Items that still need checking remain in [[en/30 - Release/Known Issues|Known Issues]]. Fixes from the same day are combined, while each issue remains easy to find.
 
-## 2026-08-13 — Multiplayer Raid information and death-drop fixes
+## 2026-08-13 — Raid vision, multiplayer information, and death-drop fixes
 
+- **Areas behind walls stayed fully bright**: Areas behind walls could look as bright as directly visible space, making it unclear why a hostile enemy was concealed. Opaque walls and solid structures now lower the visual information behind them, while doors, windows, and other openings can still restore sight.
+- **Solid sloped structures did not provide complete cover**: Solid slopes, including the Safe House roof, now block tactical line of sight in Raids.
 - **Other players' gun and facing display was incorrect**: In multiplayer, other players now continuously display LastRecall firearms correctly, and their aim direction and left/right facing follow where they are looking.
 - **Hostile players still revealed their position outside the view or behind walls**: Hostile players now follow the same Raid viewing and wall-cover rules as hostile NPCs; they return only when valid visual access is restored.
 - **A concealed hostile player's health bar still revealed their position**: When a character is concealed, their body, held weapon, and health bar no longer disclose the exact position.
 - **Old death drops were not replaced correctly after repeated multiplayer Raid deaths**: When a player dies again, their own previous death drops are correctly replaced. Another player's drops and ordinary ground items are unaffected.
 
-**Status:** ✅ All items above are confirmed fixed in multiplayer play.
+**Status:** ✅ All items above are confirmed fixed in play; the multiplayer items were confirmed in multiplayer testing.
 
 ## 2026-08-12 — Raid map and vision fixes
 

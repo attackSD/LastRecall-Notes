@@ -14,6 +14,7 @@ This page organises project progress by date; updates from the same day are comb
 - Completed two-player Raid testing: other players' LastRecall guns remain visible, while their aim direction and left/right facing correctly follow where they are looking.
 - Hostile players now follow the same Raid viewing and wall-cover rules. When outside the view or behind a wall, their body, held weapon, and health bar do not reveal their exact position; they return when valid visual access is restored. Teammates currently remain normally visible.
 - When a player dies again in a multiplayer Raid, their new death drops correctly replace their own previous set without affecting another player's drops or ordinary ground items.
+- Opaque walls and solid structures in front of the player now also lower the visual information behind them, making it clearer why a hostile enemy is concealed. Doors, windows, and other openings can still restore sight, while solid sloped structures such as the Safe House roof now provide proper cover.
 
 See [[en/30 - Release/Resolved Issues|Resolved Issues]] for the confirmed fixes.
 
