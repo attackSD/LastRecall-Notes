@@ -17,6 +17,26 @@ Equipment brought into a Raid creates risk. Items found there create temptation.
 
 Combat is part of that loop, not the only objective. Sometimes a player will go out of the way for one more container; sometimes leaving while already ahead is the better choice. LastRecall aims for readable, enjoyable Terraria adventures with meaningful decisions, rather than a harsh realism simulator.
 
+## Design philosophy
+
+LastRecall has a simple core idea: **a player's decisions should come with risks they are willing to take.**
+
+Players cannot watch every direction at once. Searching for supplies means paying less attention to the surroundings; treatment takes time away from fighting at full strength; going deeper may bring more loot, but may also cost everything already found. These limits are not meant to punish players. They are meant to make choices matter.
+
+LastRecall should provide information and tools that help players understand and reduce risk, without making uncertainty disappear too easily. Experienced players can make better use of sound, surroundings, map knowledge, equipment, and enemy behavior to stay safer. Their advantage should come from better judgement, not from the game handing them every answer.
+
+The game should not decide one “correct” way to play. Players may take risks or play cautiously, push farther or extract early, and compete with, avoid, or cooperate with other teams. **Riskier actions should have enough reason to be worth taking, rather than being forced by the rules.**
+
+Low-risk play is not a problem when it also brings lower rewards. But if one approach can reliably offer almost no risk with very high rewards, making other choices meaningless, the design needs another look; players should not be blamed for finding the best option.
+
+Randomness and surprises can exist, but they should not punish players without reason. A player may be hit by a stray shot after moving near a firefight, or attacked while searching in a dangerous place. These results can be unexpected, but the player should still be able to understand: **which decisions brought them to that outcome.**
+
+LastRecall should also respect strategies players discover for themselves. A method can be a valid answer as long as it carries a reasonable cost. It only needs adjustment when it consistently removes risk, offers too much reward, and makes other choices lose their meaning.
+
+The goal is not to arrange every story for the player. It is to create enough conditions for players to decide which risks they will take, which consequences they will accept, and let those choices naturally form a story of their own on each Raid.
+
+> These ideas are design direction, not rigid rules that limit every playstyle. Whether the game is fun, clear, and true to the experience LastRecall wants to offer should always come first.
+
 ## What players do
 
 After choosing weapons, ammunition, and supplies at Base, players enter a Raid and move through open wasteland, buildings, and indoor spaces. They search containers, encounter enemies, and choose where to go next. In the current Desert Wasteland, areas such as the Gas Station Shop can become part of that route.
