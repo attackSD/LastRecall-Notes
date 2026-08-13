@@ -9,6 +9,14 @@ tags:
 
 This page organises project progress by date; updates from the same day are combined into one entry. For live status, see [[en/00 - Project/Progress|Current Progress]].
 
+## 2026-08-13 — Multiplayer Raid information and death drops
+
+- Completed two-player Raid testing: other players' LastRecall guns remain visible, while their aim direction and left/right facing correctly follow where they are looking.
+- Hostile players now follow the same Raid viewing and wall-cover rules. When outside the view or behind a wall, their body, held weapon, and health bar do not reveal their exact position; they return when valid visual access is restored. Teammates currently remain normally visible.
+- When a player dies again in a multiplayer Raid, their new death drops correctly replace their own previous set without affecting another player's drops or ordinary ground items.
+
+See [[en/30 - Release/Resolved Issues|Resolved Issues]] for the confirmed fixes.
+
 ## 2026-08-12 — Raid vision, map reliability, and content work
 
 - Fixed an issue that could prevent Raid maps from loading correctly in some situations, improving their reliability in both development and packaged versions. Desert Wasteland, the Gas-station Shop, travelling between areas, and extraction have all been confirmed to work normally.

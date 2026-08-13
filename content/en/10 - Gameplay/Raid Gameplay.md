@@ -64,6 +64,8 @@ Base and Raids are two halves of the same loop: Base is for preparing and sortin
 
 ## Multiplayer Raids
 
-In multiplayer, teammates can enter a Raid together, explore and fight together, and see each other's names and muzzle effects. In the current team flow, teammates do not hurt each other. Moving together, checking different spaces, or deciding as a group whether the haul is worth extracting with can give the same map a different rhythm.
+In multiplayer, other players' LastRecall guns remain visible, and their aim direction and left/right facing follow where they are looking. Hostile players follow the same Raid viewing and wall-cover rules as hostile NPCs: they only provide clear information when they are in the observer's active view and not hidden by a wall. When concealed, their body, held weapon, and health bar do not reveal their exact position; they return when valid visual access is restored.
+
+Players on the same nonzero team currently remain normally visible and do not hurt one another. This is the current team experience, not a final long-term rule. Moving together, checking different spaces, or deciding as a group whether the haul is worth extracting with can give the same map a different rhythm.
 
 Related: [[en/00 - Project/Overview|Project Overview]] · [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/00 - Project/Progress|Current Progress]]
