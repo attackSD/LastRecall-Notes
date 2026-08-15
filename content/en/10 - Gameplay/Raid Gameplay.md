@@ -20,15 +20,11 @@ Desert Wasteland is the current main Raid map. Players move between open wastela
 
 ## Vision, blind areas, and sound
 
-In a Raid, the viewing direction follows the mouse. The current prototype uses a 135-degree total viewing range; this is a test value, not a final setting. The area in front of the player stays clear, while areas outside it are softly darkened by a semi-transparent vision mask. Terrain, rooms, platforms, and the general shape of the map remain readable—this is not a system that completely hides the map.
+In a Raid, the viewing direction follows the mouse. The current prototype uses a 135-degree total viewing range; this is a test value, not a final setting. The area in front stays clear while areas outside it are softly darkened, but terrain, rooms, and the general shape of the map remain readable.
 
-Looking toward an area does not guarantee complete tactical information on its own. An enemy must be both inside the direction the player is actively watching and have a clear line of sight, without a solid structure in the way, to be shown clearly. Walls, corners, sloped roofs, and other opaque structures can conceal an enemy, while true openings, doors, and windows may still reveal what is on the other side.
+To see an enemy clearly, looking in that direction is not enough: a solid wall or other opaque structure must not block the view. Doors, windows, and real openings may provide sight, while areas behind walls carry less visual information so the scene explains why an enemy is concealed. Not seeing something does not mean having no information; footsteps can suggest nearby activity and a rough direction and distance, letting players decide whether to turn and check.
 
-When a wall is in front of the player, the area behind it also carries less visual information. This makes a concealed enemy feel explained by the scene rather than as if it disappeared inside a fully bright room. The visual cue communicates the line-of-sight rule rather than replacing it; terrain, rooms, and the overall map structure are intentionally kept readable, and this is not a full fog-of-war system.
-
-Not seeing something does not mean having no information. Enemy footsteps can suggest nearby activity and a rough left/right direction and distance. Players can hear a blind area first, then turn to see whether there is a threat. In Raids, the character's left/right facing also follows the active viewing direction, even when holding an ordinary item, so the character does not appear to face away from the area being watched.
-
-These additional vision limits apply only in Raids. The main world keeps normal Terraria visibility.
+These additional vision rules apply only in Raids. The main world keeps normal Terraria visibility. For the full rules, see [[en/10 - Gameplay/Gameplay Systems|Gameplay Systems]].
 
 ## Exploring and looting
 
@@ -70,4 +66,4 @@ In multiplayer, other players' LastRecall guns remain visible, and their aim dir
 
 Players on the same nonzero team currently remain normally visible and do not hurt one another. This is the current team experience, not a final long-term rule. Moving together, checking different spaces, or deciding as a group whether the haul is worth extracting with can give the same map a different rhythm.
 
-Related: [[en/00 - Project/Overview|Project Overview]] · [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/00 - Project/Progress|Current Progress]]
+Related: [[en/00 - Project/Overview|Project Overview]] · [[en/10 - Gameplay/Gameplay Systems|Gameplay Systems]] · [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/00 - Project/Progress|Current Progress]]

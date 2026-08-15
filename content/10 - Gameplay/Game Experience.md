@@ -49,4 +49,4 @@ LastRecall 重視 Terraria 本身的可讀性與樂趣，而不是把每一場�
 
 沙漠荒地目前正以簡易版地圖配置測試完整遊玩流程。理想的一局有多長、地圖該有多大、敵人與物資該放多密、戰鬥空間要多遠、安靜與危險該怎麼交替、撤離路線該有多遠，這些都會在實際遊玩中持續調整。
 
-想了解目前一趟 Raid 的規則與內容，請看 [[10 - Gameplay/Raid Gameplay|Raid 玩法]]；想看功能的即時狀態，請看 [[00 - Project/Progress|目前進度]]。
+想了解一趟 Raid 的流程，請看 [[10 - Gameplay/Raid Gameplay|Raid 玩法]]；想確認會影響決策的特殊規則，請看 [[10 - Gameplay/Gameplay Systems|遊戲系統]]；想看功能的即時狀態，請看 [[00 - Project/Progress|目前進度]]。

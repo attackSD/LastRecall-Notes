@@ -49,4 +49,4 @@ Multiplayer Raids are not only about adding more people. Players can move togeth
 
 The Desert Wasteland is currently using a simple early layout to test a complete session. The ideal Raid length, map scale, enemy and loot density, combat distance, balance between quiet and danger, and extraction distance will all keep being adjusted through actual play.
 
-For the current Raid rules and content, see [[en/10 - Gameplay/Raid Gameplay|Raid Gameplay]]. For the current feature status, see [[en/00 - Project/Progress|Current Progress]].
+For the flow of a Raid, see [[en/10 - Gameplay/Raid Gameplay|Raid Gameplay]]. For special rules that affect decisions, see [[en/10 - Gameplay/Gameplay Systems|Gameplay Systems]]. For the current feature status, see [[en/00 - Project/Progress|Current Progress]].

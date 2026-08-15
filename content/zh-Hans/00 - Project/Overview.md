@@ -75,4 +75,4 @@ Desert Wasteland 沙漠荒地是当前主要的 Raid 地图。开发重点正在
 
 M1911 是当前最完整的枪械；AK-47 与 MP5 已能游玩基础流程，但目前仍使用暂用素材。想看当前哪些功能可用、哪些仍在制作，请前往 [[zh-Hans/00 - Project/Progress|当前进度]]。
 
-相关：[[zh-Hans/10 - Gameplay/Raid Gameplay|Raid 玩法]] · [[zh-Hans/10 - Gameplay/Game Experience|游戏体验]] · [[zh-Hans/20 - Content/Content Direction|内容方向]]
+相关：[[zh-Hans/10 - Gameplay/Raid Gameplay|Raid 玩法]] · [[zh-Hans/10 - Gameplay/Gameplay Systems|游戏系统]] · [[zh-Hans/10 - Gameplay/Game Experience|游戏体验]] · [[zh-Hans/20 - Content/Content Direction|内容方向]]

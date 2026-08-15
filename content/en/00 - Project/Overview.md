@@ -75,4 +75,4 @@ The Desert Wasteland is the main Raid map. Current work is focused on making an 
 
 The M1911 is the most developed firearm so far. The AK-47 and MP5 can already be used through their basic flow, but still use temporary artwork. For a quick status snapshot, see [[en/00 - Project/Progress|Current Progress]].
 
-Related: [[en/10 - Gameplay/Raid Gameplay|Raid Gameplay]] · [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/20 - Content/Content Direction|Content Direction]]
+Related: [[en/10 - Gameplay/Raid Gameplay|Raid Gameplay]] · [[en/10 - Gameplay/Gameplay Systems|Gameplay Systems]] · [[en/10 - Gameplay/Game Experience|Game Experience]] · [[en/20 - Content/Content Direction|Content Direction]]

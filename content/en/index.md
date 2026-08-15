@@ -53,6 +53,7 @@ Leave the Raid safely to truly bring recovered supplies back to Base.
 Sort, use, or trade the recovered loot, then prepare for the next trip.
 
 ![[telepotor_en.png]]
+
 ## What makes LastRecall different?
 
 ### Looting and extraction
@@ -94,6 +95,7 @@ Current work is focused on:
 | ----------------------------------------------------- | -------------------------------------------------------- |
 | What LastRecall is and how its core loop works        | [[en/00 - Project/Overview\|Project Overview]]           |
 | How a Raid works                                      | [[en/10 - Gameplay/Raid Gameplay\|Raid Gameplay]]        |
+| Which special rules affect decisions in a Raid        | [[en/10 - Gameplay/Gameplay Systems\|Gameplay Systems]]  |
 | What a Raid is meant to feel like                     | [[en/10 - Gameplay/Game Experience\|Game Experience]]    |
 | The direction for firearms, items, and future content | [[en/20 - Content/Content Direction\|Content Direction]] |
 

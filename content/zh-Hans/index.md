@@ -14,7 +14,6 @@ LastRecall 是一个 Terraria tModLoader 模组。玩家会先在安全基地准
 
 ![[raid.png]]
 
-
 ## 当前开发阶段
 
 **Early Development — 正在制作第一个完整可玩的 Raid 体验。**
@@ -96,6 +95,7 @@ LastRecall 的多人玩法不是要把每一趟 Raid 变成互相厮杀的对战
 | ---------------------------------- | ---------------------------------------------------- |
 | LastRecall 是什么、核心玩法是什么  | [[zh-Hans/00 - Project/Overview\|项目概览]]          |
 | 一趟 Raid 实际怎么玩               | [[zh-Hans/10 - Gameplay/Raid Gameplay\|Raid 玩法]]   |
+| 游戏有哪些会影响决策的特殊规则     | [[zh-Hans/10 - Gameplay/Gameplay Systems\|游戏系统]] |
 | 我们希望一趟 Raid 玩起来是什么感觉 | [[zh-Hans/10 - Gameplay/Game Experience\|游戏体验]]  |
 | 枪械、物品与未来内容方向           | [[zh-Hans/20 - Content/Content Direction\|内容方向]] |
 
